@@ -110,7 +110,7 @@ const LoginPageComponent = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { status, error } = useSelector((state) => state.auth);
-  const { resetPasswordStatus, resetPasswordError, verificationStatus, verificationError } = useSelector(
+  const { resetPasswordStatus, resetPasswordError, forgotPasswordStatus, forgotPasswordError } = useSelector(
     (state) => state.user
   );
 
@@ -252,13 +252,13 @@ const LoginPageComponent = () => {
              {errorMessage && <div style={{ color: 'red' }}>{errorMessage}</div>}
             <StyledButton
               onClick={handleForgotPasswordStep1}
-              loading={verificationStatus === "loading"} // Hiển thị loading nếu đang gọi API
+              loading={forgotPasswordStatus === "loading"} // Hiển thị loading nếu đang gọi API
             >
               Gửi mã xác nhận
             </StyledButton>
-            {verificationError && (
+            {forgotPasswordError && (
   <p style={{ color: "red", marginTop: "10px" }}>
-    {verificationError?.message || verificationError}
+    {forgotPasswordError?.message || forgotPasswordError}
   </p>
 )}
           </div>

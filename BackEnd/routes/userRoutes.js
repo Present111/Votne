@@ -52,32 +52,42 @@ const transporter = nodemailer.createTransport({
 
 // POST /api/users/register
 router.post("/register", async (req, res) => {
-  const { id,username, password, email, phoneNumber, address, gender, dateOfBirth } = req.body;
+  const {
+    id,
+    username,
+    password,
+    email,
+    phoneNumber,
+    phone,
+    address,
+    gender,
+    dateOfBirth,
+  } = req.body;
 
   try {
-    // Kiểm tra xem email đã tồn tại chưa
     const existingUser = await User.findOne({ email });
     if (existingUser) {
-      console.log("HELLO")
-      return res.status(400).json({ message: "Email đã tồn tại." });
+      return res.status(400).json({ message: "Email da ton tai." });
     }
 
-    // Tạo mã xác thực và lưu vào bộ nhớ
-    const verificationCode = Math.floor(100000 + Math.random() * 900000).toString();
-    verificationCodes.set(email, { verificationCode, userData: {id, username, password, email, phoneNumber, address, gender, dateOfBirth } });
-
-    // Gửi mã xác thực qua email
-    await transporter.sendMail({
-      from: "your-email@gmail.com",
-      to: email,
-      subject: "Xác nhận tài khoản",
-      text: `Mã xác thực của bạn là: ${verificationCode}`,
+    const newUser = new User({
+      id,
+      username,
+      password,
+      email,
+      phoneNumber: phoneNumber || phone || "",
+      address: address || "",
+      gender: gender || "Other",
+      dateOfBirth,
+      isActive: true,
     });
 
-    res.status(200).json({ message: "Vui lòng kiểm tra email để xác thực tài khoản." });
+    await newUser.save();
+
+    res.status(201).json({ message: "Tao tai khoan thanh cong!", user: newUser });
   } catch (error) {
     console.log(error);
-    res.status(500).json({ message: "Lỗi khi gửi mã xác thực." });
+    res.status(500).json({ message: "Loi khi tao tai khoan." });
   }
 });
 

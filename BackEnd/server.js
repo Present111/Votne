@@ -1,3 +1,10 @@
+const bufferModule = require("buffer");
+if (!bufferModule.SlowBuffer) {
+  // Node 25 removed the legacy SlowBuffer constructor that some deps still require.
+  bufferModule.SlowBuffer = bufferModule.Buffer;
+  global.SlowBuffer = bufferModule.Buffer;
+}
+
 const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Input, Button, Typography, message } from 'antd';
 import { useDispatch } from 'react-redux';
-import { createUser, verifyUser, resendVerificationCode } from '../../../redux/Slicer/userSlice'; // Import các hàm từ slice của bạn
+import { createUser } from '../../../redux/Slicer/userSlice'; // Import các hàm từ slice của bạn
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { validateSignupModule } from '../../../modules/validateSignupModule';
 
@@ -142,11 +142,8 @@ const SigninPageComponent = () => {
   const [userName, setUsername] = useState('');
   const [password, setPassWord] = useState('');
   const [password2, setPassWord2] = useState('');
-  const [verificationCode, setVerificationCode] = useState('');
   const [loading, setLoading] = useState(false);
-  const [verificationLoading, setVerificationLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
-  const [isVerified, setIsVerified] = useState(false); // Trạng thái xác thực
 
   // Tạo ID duy nhất (Có thể thay đổi logic tạo ID tùy vào nhu cầu)
   const generateUserId = () => {
@@ -219,51 +216,13 @@ const SigninPageComponent = () => {
     };
   
     try {
-      const result = await dispatch(createUser(newUser)).unwrap(); // unwrap để lấy dữ liệu trực tiếp
-      message.success('Vui lòng kiểm tra email để xác thực tài khoản.');
+      await dispatch(createUser(newUser)).unwrap(); // unwrap de lay du lieu truc tiep
+      message.success('Dang ky thanh cong! Vui long dang nhap.');
       setLoading(false);
-      setIsVerified(true); // Hiển thị form xác thực chỉ khi đăng ký thành công
-      
-     
+      navigate('/login');
     } catch (error) {
       setLoading(false);
-      setErrorMessage(error?.message || 'Đã xảy ra lỗi khi đăng ký.');
-      setIsVerified(false); // Đảm bảo không chuyển sang form xác thực nếu có lỗi
-    }
-  };
-  
-
-  const handleVerify = async () => {
-    setVerificationLoading(true);
-    try {
-      const result = await dispatch(verifyUser({ email, verificationCode })).unwrap();
-      console.log(result)
-      if(result === "err"){
-        setErrorMessage('Mã xác thực không đúng!');
-        setVerificationLoading(false);
-        return ;
-      }
-
-      setVerificationLoading(false);
-      message.success('Xác thực tài khoản thành công!');
-      navigate('/login'); // Chuyển hướng đến trang đăng nhập khi xác thực thành công
-    } catch (error) {
-      setVerificationLoading(false);
-      setErrorMessage(error.message || 'Lỗi xác thực.');
-   
-    }
-  };
-
-  const handleResendVerificationCode = async () => {
-    setVerificationLoading(true);
-    try {
-      await dispatch(resendVerificationCode(email));
-      setVerificationLoading(false);
-      message.success('Mã xác thực đã được gửi lại!');
-    } catch (error) {
-      setVerificationLoading(false);
-      setErrorMessage(error.message || 'Lỗi khi gửi lại mã xác thực.');
-      
+      setErrorMessage(error?.message || 'Da xay ra loi khi dang ky.');
     }
   };
 
@@ -276,34 +235,17 @@ const SigninPageComponent = () => {
       </RegisterText>
 
       {/* Form đăng ký */}
-      {!isVerified ? (
-        <>
-          <StyledInput value={userName} onChange={(e) => setUsername(e.target.value)} placeholder="Nhập tên của bạn (*)" />
-          <StyledInput value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Nhập email của bạn (*)" />
-          <StyledInput value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="Nhập số điện thoại" />
+      <>
+        <StyledInput value={userName} onChange={(e) => setUsername(e.target.value)} placeholder="Nhập tên của bạn (*)" />
+        <StyledInput value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Nhập email của bạn (*)" />
+        <StyledInput value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="Nhập số điện thoại" />
+
+        <StyledInput value={password} onChange={(e) => setPassWord(e.target.value)} type="password" placeholder="Mật khẩu" />
+        <StyledInput value={password2} onChange={(e) => setPassWord2(e.target.value)} type="password" placeholder="Nhập lại mật khẩu" />
+        <StyledButton type="primary" onClick={handleSignUp} loading={loading}> ĐĂNG KÝ</StyledButton>
+      </>
       
-          <StyledInput value={password} onChange={(e) => setPassWord(e.target.value)} type="password" placeholder="Mật khẩu" />
-          <StyledInput value={password2} onChange={(e) => setPassWord2(e.target.value)} type="password" placeholder="Nhập lại mật khẩu" />
-          <StyledButton type="primary" onClick={handleSignUp} loading={loading}> ĐĂNG KÝ</StyledButton>
-        </>
-      ) : (
-        <>
-          {/* Form xác thực */}
-          <StyledInput 
-            value={verificationCode} 
-            onChange={(e) => setVerificationCode(e.target.value)} 
-            placeholder="Nhập mã xác thực" 
-          />
-          <StyledButton type="primary" onClick={handleVerify} loading={verificationLoading}>
-            XÁC THỰC
-          </StyledButton>
-          <StyledButton type="link" onClick={handleResendVerificationCode} loading={verificationLoading}>
-            Gửi lại mã xác thực
-          </StyledButton>
-        </>
-      )}
-      
-      {/* Hiển thị thông báo lỗi nếu có */}
+{/* Hiển thị thông báo lỗi nếu có */}
       {errorMessage && <div style={{ color: 'red' }}>{errorMessage}</div>}
     </RegisterWrapper>
   );

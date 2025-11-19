@@ -20,32 +20,6 @@ export const createUser = createAsyncThunk(
   }
 );
 
-// API call để xác thực người dùng qua email
-export const verifyUser = createAsyncThunk(
-  "user/verifyUser",
-  async ({ email, verificationCode }, thunkAPI) => {
-    try {
-      const response = await axios.post("http://localhost:8081/api/users/verify", { email, verificationCode });
-      return response.data; // Trả về thông báo xác thực thành công
-    } catch (err) {
-      return "err";
-    }
-  }
-);
-
-// API call để gửi lại mã xác thực
-export const resendVerificationCode = createAsyncThunk(
-  "user/resendVerificationCode",
-  async (email, thunkAPI) => {
-    try {
-      const response = await axios.post("http://localhost:8081/api/users/resend-code", { email });
-      return response.data; // Trả về thông báo gửi lại mã xác thực thành công
-    } catch (err) {
-      return thunkAPI.rejectWithValue(err.response?.data || err.message);
-    }
-  }
-);
-
 // API call để lấy thông tin người dùng theo ID
 export const fetchUserById = createAsyncThunk(
   "user/fetchUserById",
@@ -201,8 +175,8 @@ const userSlice = createSlice({
     users: [], // Danh sách tất cả người dùng
     status: "idle", // Trạng thái tải dữ liệu (idle | loading | succeeded | failed)
     error: null, // Lỗi nếu có
-    verificationStatus: "idle", // Trạng thái xác thực
-    verificationError: null, // Lỗi khi xác thực
+    forgotPasswordStatus: "idle", // Trạng thái gửi mã quên mật khẩu
+    forgotPasswordError: null, // Lỗi khi gửi mã quên mật khẩu
     resetPasswordStatus: "idle", // Trạng thái cho reset mật khẩu
     resetPasswordError: null,    // Lỗi cho reset mật khẩu
     addStaffStatus: "idle",  // Trạng thái cho thêm nhân viên
@@ -225,16 +199,15 @@ const userSlice = createSlice({
       state.addStaffError = action.payload; 
     })
     .addCase(forgotPassword.pending, (state) => {
-      state.status = "loading";
-      state.error = null;
+      state.forgotPasswordStatus = "loading";
+      state.forgotPasswordError = null;
     })
-    .addCase(forgotPassword.fulfilled, (state, action) => {
-      state.status = "succeeded";
-      // Lưu thông báo thành công
+    .addCase(forgotPassword.fulfilled, (state) => {
+      state.forgotPasswordStatus = "succeeded";
     })
     .addCase(forgotPassword.rejected, (state, action) => {
-      state.status = "failed";
-      state.error = action.payload;
+      state.forgotPasswordStatus = "failed";
+      state.forgotPasswordError = action.payload;
     })
 
     // Xử lý action resetPassword
@@ -262,34 +235,6 @@ const userSlice = createSlice({
       .addCase(createUser.rejected, (state, action) => {
         state.status = "failed";
         state.error = action.payload; // Lưu lỗi nếu có
-      })
-
-      // Xử lý action verifyUser
-      .addCase(verifyUser.pending, (state) => {
-        state.verificationStatus = "loading";
-        state.verificationError = null;
-      })
-      .addCase(verifyUser.fulfilled, (state, action) => {
-        state.verificationStatus = "succeeded";
-        state.user = action.payload; // Cập nhật lại thông tin người dùng
-      })
-      .addCase(verifyUser.rejected, (state, action) => {
-        state.verificationStatus = "failed";
-        state.verificationError = action.payload; // Lưu lỗi khi xác thực
-      })
-
-      // Xử lý action resendVerificationCode
-      .addCase(resendVerificationCode.pending, (state) => {
-        state.status = "loading";
-        state.error = null;
-      })
-      .addCase(resendVerificationCode.fulfilled, (state, action) => {
-        state.status = "succeeded";
-        // Thông báo đã gửi lại mã xác thực
-      })
-      .addCase(resendVerificationCode.rejected, (state, action) => {
-        state.status = "failed";
-        state.error = action.payload; // Lưu lỗi khi gửi lại mã
       })
 
       // Xử lý action fetchUserById
