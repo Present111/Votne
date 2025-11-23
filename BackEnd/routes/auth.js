@@ -1,71 +1,19 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
-const User = require('../models/User');
 const mongoose = require('mongoose');
+const bcrypt = require('bcrypt');
+
+const User = require('../models/User');
 const router = express.Router();
 
-/**
- * @swagger
- * tags:
- *   name: Auth
- *   description: Các API liên quan đến đăng ký và đăng nhập người dùng
- */
-
-/**
- * @swagger
- * /api/auth/register:
- *   post:
- *     summary: Đăng ký người dùng mới
- *     tags: [Auth]
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             type: object
- *             properties:
- *               username:
- *                 type: string
- *                 example: johndoe123  # Dữ liệu mẫu
- *               password:
- *                 type: string
- *                 example: "Password123!"  # Dữ liệu mẫu
- *               email:
- *                 type: string
- *                 example: johndoe@example.com  # Dữ liệu mẫu
- *               phoneNumber:
- *                 type: string
- *                 example: "0123456789"  # Dữ liệu mẫu
- *               address:
- *                 type: string
- *                 example: "123 Main St, Hanoi, Vietnam"  # Dữ liệu mẫu
- *               gender:
- *                 type: string
- *                 enum: [Male, Female, Other]
- *                 example: "Male"  # Dữ liệu mẫu
- *               dateOfBirth:
- *                 type: string
- *                 format: date
- *                 example: "1990-01-01"  # Dữ liệu mẫu
- *               role:
- *                 type: string
- *                 enum: [Customer, Admin, Seller, WarehouseStaff]
- *                 example: "Customer"  # Dữ liệu mẫu
- *     responses:
- *       201:
- *         description: Đăng ký thành công
- *       400:
- *         description: Tên người dùng đã tồn tại
- *       500:
- *         description: Lỗi server
- */
+// Register new user
 router.post('/register', async (req, res) => {
   const { username, password, email, phoneNumber, address, gender, dateOfBirth, role } = req.body;
 
   try {
     const existingUser = await User.findOne({ username });
     if (existingUser) {
-      return res.status(400).json({ message: "Tên người dùng đã tồn tại!" });
+      return res.status(400).json({ message: 'Username already exists' });
     }
 
     const newUser = new User({
@@ -81,77 +29,48 @@ router.post('/register', async (req, res) => {
     });
 
     await newUser.save();
-    return res.status(201).json({ message: "Đăng ký thành công!" });
-
+    return res.status(201).json({ message: 'Register success' });
   } catch (error) {
     console.error(error);
-    return res.status(500).json({ message: 'Lỗi server' });
+    return res.status(500).json({ message: 'Server error' });
   }
 });
 
-/**
- * @swagger
- * /api/auth/login:
- *   post:
- *     summary: Đăng nhập người dùng
- *     tags: [Auth]
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             type: object
- *             properties:
- *               username:
- *                 type: string
- *                 example: nguyen_van_a  # Dữ liệu mẫu
- *               password:
- *                 type: string
- *                 example: MatKhau123!  # Dữ liệu mẫu
- *     responses:
- *       200:
- *         description: Đăng nhập thành công
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 token:
- *                   type: string
- *       400:
- *         description: Tên người dùng hoặc mật khẩu không đúng
- *       500:
- *         description: Lỗi server
- */
+// Login
 router.post('/login', async (req, res) => {
-  const { username, password } = req.body;
+  const { username, email, password } = req.body;
 
   try {
-    const email = username
-
-    const user = await User.findOne({ email, isActive: true });
-
-    if (!user) {
-      return res.status(400).json({ message: "Email người dùng hoặc mật khẩu không đúng!" });
+    // Frontend sends email in the `username` field; accept either email or username
+    const identifier = email || username;
+    if (!identifier || !password) {
+      return res.status(400).json({ message: 'Email/username and password are required' });
     }
 
-    // const isMatch = await user.comparePassword(password);
-    const isMatch = await User.findOne({password});
+    const user = await User.findOne({
+      isActive: true,
+      $or: [{ email: identifier }, { username: identifier }],
+    });
+
+    if (!user) {
+      return res.status(400).json({ message: 'Invalid email/username or password' });
+    }
+
+    const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
-      return res.status(400).json({ message: "Email người dùng hoặc mật khẩu không đúng!" });
+      return res.status(400).json({ message: 'Invalid email/username or password' });
     }
 
     const token = jwt.sign(
       { userId: user._id, username: user.username, role: user.role },
-      process.env.JWT_SECRET, // Sử dụng một khóa bảo mật trong file .env
+      process.env.JWT_SECRET,
       { expiresIn: '1h' }
     );
 
     return res.status(200).json({ token });
-
   } catch (error) {
     console.error(error);
-    return res.status(500).json({ message: 'Lỗi server' });
+    return res.status(500).json({ message: 'Server error' });
   }
 });
 
