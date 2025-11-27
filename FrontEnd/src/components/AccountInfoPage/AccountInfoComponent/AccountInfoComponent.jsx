@@ -3,315 +3,206 @@ import styled from 'styled-components';
 import { Button, Input, Select, DatePicker, Form, Typography, Row, Col, message } from 'antd';
 import { jwtDecode } from 'jwt-decode';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchUserById, updateUser, updatePassword } from '../../../redux/Slicer/userSlice';
+import { fetchUserById, updateUser } from '../../../redux/Slicer/userSlice';
+import { uploadFile } from '../../../redux/Slicer/uploadSlice';
 import moment from 'moment';
-import {validateUserInfoModule} from "../../../modules/validateUserInfoModule"
+import { validateUserInfoModule } from "../../../modules/validateUserInfoModule";
 
 const { Title } = Typography;
 
 const Container = styled.div`
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 20px;
+`;
+
+const AvatarWrapper = styled.div`
+  text-align: center;
+  margin-bottom: 25px;
+`;
+
+const AvatarBox = styled.div`
+  display: inline-block;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #1da0f1, #d3541b);
+`;
+
+const AvatarImg = styled.img`
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.25);
+  transition: 0.25s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+`;
+
+const UploadInput = styled.input`
+  margin-top: 10px;
 `;
 
 const StyledButton = styled(Button)`
   width: 100%;
   margin-top: 15px;
   background-color: #1DA0F1;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
   color: #fff;
+
   &:hover {
     background-color: #d3541b;
-    border-color: #1DA0F1;
   }
 `;
-const validateUsername = (username) => {
-  // Kiểm tra nếu tên chứa chữ số
-  if (/\d/.test(username)) {
-    return "Tên không được chứa chữ số.";
-  }
-
-  // Định nghĩa dãy ký tự hợp lệ (chữ cái không dấu và có dấu, khoảng trắng)
-  const specialChars = /[!@#$%^~&*(),.?":{}|<>/+=_\-\\|;'\[\]<>`]/;
-
-  // Kiểm tra nếu tên chứa ký tự đặc biệt
-  if (specialChars.test(username)) {
-    return "Tên không được chứa ký tự đặc biệt.";
-  }
-
-  // Kiểm tra độ dài tên
-  if (username.length < 2) {
-    return "Tên phải có ít nhất 2 ký tự.";
-  }
-  if (username.length > 50) {
-    return "Tên không được vượt quá 50 ký tự.";
-  }
-
-  return ""; // Tên hợp lệ
-};
-
-
-
-
-const validatePhonenumber = (phoneNumber) => {
-  if (/[^0-9]/.test(phoneNumber)) {
-    return "Số điện thoại chỉ được chứa chữ số.";
-  }
-  if (phoneNumber.length < 10) {
-    return "Số điện thoại phải có ít nhất 10 chữ số.";
-  }
-  if (phoneNumber.length > 10) {
-    return "Số điện thoại không được vượt quá 10 chữ số.";
-  }
-  return ""; // Trả về chuỗi rỗng nếu hợp lệ
-};
-
-
-const validateAddress = (address) => {
-  if (address.length < 10) {
-    return "Địa chỉ phải có ít nhất 10 ký tự.";
-  }
-  if (address.length > 500) {
-    return "Địa chỉ không được vượt quá 500 ký tự.";
-  }
-  return ""; // Địa chỉ hợp lệ
-};
-
-const validateBirthDay = (birthDay) => {
-  const today = new Date(); // Ngày hiện tại
-  const birthDate = new Date(birthDay); // Ngày sinh
-
-  if (birthDate >= today) {
-    return "Ngày sinh phải trước ngày hôm nay.";
-  }
-  return ""; // Ngày sinh hợp lệ
-};
-
 
 const AccountInfoComponent = () => {
-  const [form] = Form.useForm(); // Sử dụng form instance của Ant Design
-  const [passwordForm] = Form.useForm(); // Form cho phần đổi mật khẩu
+  const [form] = Form.useForm();
   const dispatch = useDispatch();
-const [errorMessage, setErrorMessage] = useState('');
-  
-  const [loading, setLoading] = useState(false); // Để kiểm soát trạng thái loading khi cập nhật
-  const [loadingPassword, setLoadingPassword] = useState(false); // Để kiểm soát trạng thái loading khi đổi mật khẩu
-  const { user, status, error } = useSelector((state) => state.user);
-  // Gọi API lấy thông tin user khi load trang
-  useEffect(() => {
-    const token = localStorage.getItem('token'); 
-    if (token) {
-      try {
-        const decodedToken = jwtDecode(token); 
-        if (decodedToken?.userId) {
-          dispatch(fetchUserById(decodedToken.userId));
-        } else {
-          console.warn('Không tìm thấy userId trong token.');
-        }
-      } catch (error) {
-        console.error('Lỗi khi giải mã token:', error);
-      }
-    } else {
-      console.warn('Không tìm thấy token trong LocalStorage.');
-    }
-  }, [dispatch]);
 
-  // Cập nhật giá trị trong form khi `user` thay đổi
+  const [errorMessage, setErrorMessage] = useState('');
+  const [avatarLoading, setAvatarLoading] = useState(false);
+
+  // 👉 Avatar preview
+  const [avatarPreview, setAvatarPreview] = useState("");
+
+  const { user } = useSelector((state) => state.user);
+
+  // 👉 Lấy userId
+  const token = localStorage.getItem('token');
+  const decodedToken = token ? jwtDecode(token) : {};
+  const userId = decodedToken?.userId;
+
+  // Load user info
+  useEffect(() => {
+    if (userId) dispatch(fetchUserById(userId));
+  }, [dispatch, userId]);
+
+  // Fill form khi user load xong
   useEffect(() => {
     if (user) {
       form.setFieldsValue({
-        address: user?.address || '',
-        username: user?.username || '',
-        phoneNumber: user?.phoneNumber || '',
-        gender: user?.gender || '',
-        dateOfBirth: user?.dateOfBirth ? moment(user.dateOfBirth) : null,
+        username: user.username,
+        phoneNumber: user.phoneNumber,
+        address: user.address,
+        gender: user.gender,
+        dateOfBirth: user.dateOfBirth ? moment(user.dateOfBirth) : null,
       });
+
+      // Set avatar ban đầu
+      setAvatarPreview(user.avatarUrl || "");
     }
   }, [user, form]);
 
-  // Hàm xử lý cập nhật thông tin người dùng
+  // 🔥 Upload avatar CHỈ để preview
+  const handleUploadAvatar = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    setAvatarLoading(true);
+
+    const result = await dispatch(uploadFile(file));
+
+    if (uploadFile.fulfilled.match(result)) {
+      const rawUrl = result.payload.data.path;
+      const safeUrl = encodeURI(rawUrl);
+
+      // 👉 Preview ảnh nhưng chưa lưu DB
+      setAvatarPreview(safeUrl);
+
+      message.success("Upload ảnh thành công! Nhớ bấm CẬP NHẬT để lưu.");
+    } else {
+      message.error("Upload ảnh thất bại!");
+    }
+
+    setAvatarLoading(false);
+  };
+
+  // Update thông tin user + lưu avatar mới
   const handleUpdate = async () => {
-    setLoading(true); // Bắt đầu loading khi thực hiện cập nhật
     try {
-      const values = await form.validateFields(); // Validate các trường trong form
-      const userId = user?._id; // Lấy userId từ dữ liệu user đã có
+      const values = await form.validateFields();
 
-
-      const usernameError = validateUsername(values.username);
-  if (usernameError) {
-    setErrorMessage(usernameError)
-    return;
-  }
-
-  
-  const  phoneError = validatePhonenumber(values.phoneNumber);
-  if(phoneError){
-    setErrorMessage(phoneError)
-    return;
-  }
-  const addressError = validateAddress(values.address);
-  if(addressError){
-    setErrorMessage(addressError)
-    return;
-  }
-
-  const birthError = validateBirthDay(values.dateOfBirth);
-  if(birthError){
-    setErrorMessage(birthError)
-    return;
-  }
-  if(!validateUserInfoModule(values.username,values.phoneNumber,user.email,values.address,values.dateOfBirth,values.gender) ){
-    return;
-  }
-  
-  
-      if (userId) {
-        const updatedUserData = {
-          ...values, // Các trường thông tin từ form
-          id: userId, // Thêm userId vào dữ liệu
-          role: "Customer", // Thêm role nếu không thay đổi
-          isActive: true, // Giả sử trạng thái isActive luôn là true khi cập nhật
-          createdAt: user?.createdAt || new Date().toISOString(), // Sử dụng thời gian tạo ban đầu hoặc tạo mới
-          updatedAt: new Date().toISOString(), // Thời gian cập nhật
-          _id: user?._id, // Giữ lại _id từ dữ liệu ban đầu nếu có
-          // Đảm bảo password được xử lý đúng (nếu có thay đổi)
-          password: user?.password , // Nếu không có thay đổi thì giữ nguyên
-          address: values.address || user?.address || "", // Địa chỉ
-        };
-  
-        // Gửi thông tin cập nhật tới API
-        dispatch(updateUser({ userId, userData: updatedUserData })   ).unwrap()
-        .then(() => {
-          message.success("Cập nhật thông tin thành công");
-        })
-        .catch(() => {
-          message.error("Cập nhật thông tin thất bại");
-        });;
-      }
-    } catch (error) {
-      console.error("Cập nhật thông tin thất bại:", error);
-    } finally {
-      setLoading(false); // Dừng loading khi đã xong
-    }
-  };
-
-  // Hàm xử lý đổi mật khẩu
-  const handleChangePassword = async () => {
-    setLoadingPassword(true); // Bắt đầu loading khi đổi mật khẩu
-    try {
-      const values = await passwordForm.validateFields(); // Validate các trường trong form đổi mật khẩu
-      if (values.newPassword !== values.confirmPassword) {
-        message.error("Mật khẩu mới và xác nhận mật khẩu không khớp.");
+      // Validate
+      if (!validateUserInfoModule(values.username, values.phoneNumber, user.email, values.address, values.dateOfBirth, values.gender))
         return;
-      }
-      
-      const token = localStorage.getItem('token');
-      const decodedToken = jwtDecode(token);
-      const userId = decodedToken.userId;
 
+      await dispatch(updateUser({
+        userId,
+        userData: {
+          ...values,
+          avatarUrl: avatarPreview, // 👉 Lưu avatar vào DB
+          dateOfBirth: values.dateOfBirth ? values.dateOfBirth.toISOString() : null,
+        }
+      })).unwrap();
 
-      console.log(values.oldPassword , values.newPassword)
-      // Gửi yêu cầu đổi mật khẩu
-      dispatch(updatePassword({ userId, currentPassword: values.oldPassword, newPassword: values.newPassword }))
-        .unwrap()
-        .then(() => {
-          message.success("Đổi mật khẩu thành công!");
-        })
-        .catch(() => {
-          message.error("Đổi mật khẩu thất bại!");
-        });
-    } catch (error) {
-      console.error("Đổi mật khẩu thất bại:", error);
-      message.error("Đổi mật khẩu thất bại!");
-    } finally {
-      setLoadingPassword(false); // Dừng loading khi đã xong
+      // 👉 Lưu avatar vào localStorage để Header xài
+      localStorage.setItem("avatarUrl", avatarPreview);
+
+      message.success("Cập nhật thông tin thành công!");
+
+      window.location.reload();
+
+    } catch (err) {
+      console.error(err);
+      message.error("Cập nhật thất bại!");
     }
   };
-console.log(user)
+
   return (
     <Container>
       <Title level={3}>Thông tin tài khoản</Title>
-      <Form 
-        form={form} 
-        layout="vertical"
-        initialValues={{
-          address: '',
-          username: '',
-          phoneNumber: '',
-          gender: '',
-          dateOfBirth: null,
-        }}
-      >
-        
+
+      {/* Avatar */}
+      <AvatarWrapper>
+        <AvatarBox>
+          <AvatarImg
+            src={avatarPreview || "/default-avatar.png"}
+            alt="avatar"
+          />
+        </AvatarBox>
+
+        <UploadInput type="file" accept="image/*" onChange={handleUploadAvatar} />
+        {avatarLoading && <p>Đang tải ảnh...</p>}
+      </AvatarWrapper>
+
+      <Form form={form} layout="vertical">
         <Form.Item label="Họ tên" name="username">
           <Input placeholder="Họ tên" />
         </Form.Item>
-        
+
         <Form.Item label="Số điện thoại" name="phoneNumber">
           <Input placeholder="Số điện thoại" />
         </Form.Item>
+
         <Form.Item label="Địa chỉ" name="address">
           <Input placeholder="Địa chỉ" />
         </Form.Item>
+
         <Row gutter={16}>
           <Col span={12}>
             <Form.Item label="Giới tính" name="gender">
-              <Select placeholder="Chọn giới tính">
+              <Select>
                 <Select.Option value="Male">Nam</Select.Option>
                 <Select.Option value="Female">Nữ</Select.Option>
               </Select>
             </Form.Item>
           </Col>
+
           <Col span={12}>
             <Form.Item label="Ngày sinh" name="dateOfBirth">
-              <DatePicker
-                style={{ width: '100%' }}
-                format="YYYY-MM-DD"
-                placeholder="Chọn ngày sinh"
-              />
+              <DatePicker style={{ width: "100%" }} format="YYYY-MM-DD" />
             </Form.Item>
           </Col>
         </Row>
-        {errorMessage && <div style={{ color: 'red' }}>{errorMessage}</div>}
-        <StyledButton 
-          type="primary" 
-          loading={loading || status === 'loading'} // Hiển thị loading nếu đang cập nhật
-          onClick={handleUpdate}
-        >
+
+        {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
+
+        <StyledButton type="primary" onClick={handleUpdate}>
           CẬP NHẬT
         </StyledButton>
-       
       </Form>
-
-      {/* <Title level={4} style={{ marginTop: '30px' }}>Đổi mật khẩu</Title>
-      <Form form={passwordForm} layout="vertical">
-        <Form.Item 
-          label="Mật khẩu hiện tại" 
-          name="oldPassword" 
-          rules={[{ required: true, message: 'Mật khẩu hiện tại là bắt buộc!' }]}>
-          <Input.Password placeholder="Mật khẩu hiện tại" />
-        </Form.Item>
-        <Form.Item 
-          label="Mật khẩu mới" 
-          name="newPassword" 
-          rules={[{ required: true, message: 'Mật khẩu mới là bắt buộc!' }]}>
-          <Input.Password placeholder="Mật khẩu mới" />
-        </Form.Item>
-        <Form.Item 
-          label="Nhập lại mật khẩu mới" 
-          name="confirmPassword" 
-          rules={[{ required: true, message: 'Vui lòng xác nhận mật khẩu mới!' }]}>
-          <Input.Password placeholder="Nhập lại mật khẩu mới" />
-        </Form.Item>
-        <StyledButton 
-          type="primary" 
-          loading={loadingPassword} 
-          onClick={handleChangePassword}
-        >
-          ĐỔI MẬT KHẨU
-        </StyledButton>
-      </Form> */}
     </Container>
   );
 };

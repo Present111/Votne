@@ -323,14 +323,38 @@ router.get("/:id", authMiddleware, async (req, res) => {
  */
 router.put("/:id", authMiddleware, async (req, res) => {
   try {
-    const updatedUser = await User.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    const allowedFields = [
+      "username",
+      "email",
+      "phoneNumber",
+      "address",
+      "gender",
+      "dateOfBirth",
+      "role",
+      "avatarUrl"   // 🆕 Cho phép update avatar
+    ];
+
+    const updateData = {};
+
+    allowedFields.forEach(field => {
+      if (req.body[field] !== undefined) {
+        updateData[field] = req.body[field];
+      }
+    });
+
+    // Không cho update password ở đây
+    if (req.body.password) {
+      return res.status(400).json({ message: "Use /password endpoint to update password." });
+    }
+
+    const updatedUser = await User.findByIdAndUpdate(
+      req.params.id,
+      updateData,
+      { new: true }
+    );
 
     if (!updatedUser) {
       return res.status(404).json({ message: "User not found" });
-    }
-
-    if (updatedUser._id.toString() !== req.user._id.toString() && req.user.role !== 'admin') {
-      return res.status(403).json({ message: "Access denied" });
     }
 
     res.status(200).json(updatedUser);
@@ -339,6 +363,7 @@ router.put("/:id", authMiddleware, async (req, res) => {
     res.status(500).json({ message: "Failed to update user" });
   }
 });
+
 
 /**
  * @swagger

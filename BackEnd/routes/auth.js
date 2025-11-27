@@ -62,16 +62,26 @@ router.post('/login', async (req, res) => {
     }
 
     const token = jwt.sign(
-      { userId: user._id, username: user.username, role: user.role },
+      { 
+        userId: user._id,
+        username: user.username,
+        role: user.role,
+        avatarUrl: user.avatarUrl || null  // ⬅ THÊM AVATAR VÀO TOKEN
+      },
       process.env.JWT_SECRET,
       { expiresIn: '1h' }
     );
 
-    return res.status(200).json({ token });
+    return res.status(200).json({ 
+      token,
+      avatarUrl: user.avatarUrl || null  // ⬅ TRẢ AVATAR RA NGOÀI
+    });
+
   } catch (error) {
     console.error(error);
     return res.status(500).json({ message: 'Server error' });
   }
 });
+
 
 module.exports = router;

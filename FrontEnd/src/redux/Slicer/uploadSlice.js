@@ -9,14 +9,34 @@ export const uploadFile = createAsyncThunk(
   "upload/uploadFile",
   async (file, thunkAPI) => {
     try {
-      const formData = new FormData();
-      formData.append("image", file); // Gửi file dưới key "image" (phù hợp với multer.single('image'))
+      // Convert file → base64 (vì JSON không gửi file binary trực tiếp)
+      const toBase64 = (file) =>
+        new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.readAsDataURL(file);
+          reader.onload = () => {
+            const base64 = reader.result.split(",")[1]; // chỉ lấy phần base64
+            resolve(base64);
+          };
+          reader.onerror = reject;
+        });
 
-      const response = await axios.post(UPLOAD_API_URL, formData, {
-        headers: {
-          "Content-Type": "multipart/form-data",
+      const base64Data = await toBase64(file);
+
+      // ---- GỬI JSON THAY VÌ MULTIPART ----
+      const response = await axios.post(
+        UPLOAD_API_URL,
+        {
+          filename: file.name,  // giữ nguyên behavior (chỉ thay body)
+          data: base64Data      // base64 content
         },
-      });
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
       return response.data; // Trả về kết quả từ server
     } catch (err) {
       return thunkAPI.rejectWithValue(err.response?.data || err.message);
