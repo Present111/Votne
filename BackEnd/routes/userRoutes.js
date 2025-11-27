@@ -2,7 +2,8 @@ const express = require("express");
 const User = require("../models/User");
 const authMiddleware = require("../middlewares/authMiddleware");
 const router = express.Router();
-const nodemailer = require('nodemailer');
+const nodemailer = require("nodemailer");
+const roleMiddleware = require("../middlewares/roleMiddleware");
 /**
  * @swagger
  * /api/users:
@@ -84,7 +85,9 @@ router.post("/register", async (req, res) => {
 
     await newUser.save();
 
-    res.status(201).json({ message: "Tao tai khoan thanh cong!", user: newUser });
+    res
+      .status(201)
+      .json({ message: "Tao tai khoan thanh cong!", user: newUser });
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: "Loi khi tao tai khoan." });
@@ -100,8 +103,7 @@ router.post("/addStaff", async (req, res) => {
     if (existingUser) {
       return res.status(400).json({ message: "Đã tồn tại email" });
     }
-    console.log("HELLO")
-   
+    console.log("HELLO");
 
     // Tạo người dùng mới
     const newUser = new User({
@@ -119,14 +121,15 @@ router.post("/addStaff", async (req, res) => {
 
     await newUser.save();
 
-    res.status(201).json({ message: "Nhân viên mới đã được thêm thành công.", user: newUser });
+    res.status(201).json({
+      message: "Nhân viên mới đã được thêm thành công.",
+      user: newUser,
+    });
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: "Lỗi khi thêm nhân viên mới." });
   }
 });
-
-
 
 // POST /api/users/verify
 router.post("/verify", async (req, res) => {
@@ -136,11 +139,21 @@ router.post("/verify", async (req, res) => {
     // Kiểm tra mã xác thực trong bộ nhớ tạm
     const storedData = verificationCodes.get(email);
     if (!storedData || storedData.verificationCode !== verificationCode) {
-      return res.status(400).json({ message: "Mã xác thực không hợp lệ hoặc đã hết hạn." });
+      return res
+        .status(400)
+        .json({ message: "Mã xác thực không hợp lệ hoặc đã hết hạn." });
     }
 
     // Tạo người dùng mới từ dữ liệu lưu trữ
-    const {id, username, password, phoneNumber, address, gender, dateOfBirth } = storedData.userData;
+    const {
+      id,
+      username,
+      password,
+      phoneNumber,
+      address,
+      gender,
+      dateOfBirth,
+    } = storedData.userData;
 
     const newUser = new User({
       id,
@@ -159,14 +172,14 @@ router.post("/verify", async (req, res) => {
     // Xóa mã xác thực sau khi sử dụng
     verificationCodes.delete(email);
 
-    res.status(201).json({ message: "Tài khoản đã được xác thực và tạo thành công!" });
+    res
+      .status(201)
+      .json({ message: "Tài khoản đã được xác thực và tạo thành công!" });
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: "Lỗi khi xác thực tài khoản." });
   }
 });
-
-
 
 // POST /api/users/resend-code
 router.post("/resend-code", async (req, res) => {
@@ -176,7 +189,9 @@ router.post("/resend-code", async (req, res) => {
     // Kiểm tra người dùng tồn tại và chưa kích hoạt
     const user = await User.findOne({ email });
     if (!user || user.isActive) {
-      return res.status(400).json({ message: "Email không tồn tại hoặc tài khoản đã được kích hoạt." });
+      return res.status(400).json({
+        message: "Email không tồn tại hoặc tài khoản đã được kích hoạt.",
+      });
     }
 
     // Kiểm tra mã xác thực còn lưu trong bộ nhớ tạm
@@ -190,11 +205,15 @@ router.post("/resend-code", async (req, res) => {
         text: `Mã xác thực của bạn là: ${existingCode.verificationCode}`,
       });
 
-      return res.status(200).json({ message: "Mã xác thực đã được gửi lại. Vui lòng kiểm tra email." });
+      return res.status(200).json({
+        message: "Mã xác thực đã được gửi lại. Vui lòng kiểm tra email.",
+      });
     }
 
     // Tạo mã xác thực mới nếu không có mã xác thực trước đó
-    const verificationCode = Math.floor(100000 + Math.random() * 900000).toString();
+    const verificationCode = Math.floor(
+      100000 + Math.random() * 900000
+    ).toString();
 
     // Lưu mã xác thực mới vào bộ nhớ
     verificationCodes.set(email, { verificationCode, userData: { email } });
@@ -207,14 +226,14 @@ router.post("/resend-code", async (req, res) => {
       text: `Mã xác thực của bạn là: ${verificationCode}`,
     });
 
-    res.status(200).json({ message: "Mã xác thực mới đã được gửi. Vui lòng kiểm tra email." });
+    res.status(200).json({
+      message: "Mã xác thực mới đã được gửi. Vui lòng kiểm tra email.",
+    });
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: "Lỗi khi gửi lại mã xác thực." });
   }
 });
-
-
 
 /**
  * @swagger
@@ -352,9 +371,17 @@ router.put("/:id", authMiddleware, async (req, res) => {
       updateData,
       { new: true }
     );
+   
 
     if (!updatedUser) {
       return res.status(404).json({ message: "User not found" });
+    }
+
+    if (
+      updatedUser._id.toString() !== req.user._id.toString() &&
+      req.user.role !== "admin"
+    ) {
+      return res.status(403).json({ message: "Access denied" });
     }
 
     res.status(200).json(updatedUser);
@@ -407,7 +434,9 @@ router.put("/:id/password", authMiddleware, async (req, res) => {
 
   // Basic validation: Ensure new password is provided
   if (!newPassword) {
-    return res.status(400).json({ message: "Mật khẩu mới không được để trống." });
+    return res
+      .status(400)
+      .json({ message: "Mật khẩu mới không được để trống." });
   }
 
   try {
@@ -419,15 +448,15 @@ router.put("/:id/password", authMiddleware, async (req, res) => {
 
     // Check if the current password is correct
     // const isMatch = await bcrypt.compare(currentPassword, user.password);
-const password = currentPassword
-    const isMatch = await User.findOne({password});
+    const password = currentPassword;
+    const isMatch = await User.findOne({ password });
     if (!isMatch) {
       return res.status(403).json({ message: "Mật khẩu hiện tại không đúng" });
     }
 
-    console.log("new:: " + newPassword)
+    console.log("new:: " + newPassword);
     // Hash the new password
-   // const hashedPassword = await bcrypt.hash(newPassword, 10);
+    // const hashedPassword = await bcrypt.hash(newPassword, 10);
 
     // Update the user's password
     user.password = newPassword;
@@ -439,7 +468,6 @@ const password = currentPassword
     res.status(500).json({ message: "Lỗi khi cập nhật mật khẩu" });
   }
 });
-
 
 /**
  * @swagger
@@ -479,7 +507,7 @@ const password = currentPassword
  *       500:
  *         description: Failed to retrieve users
  */
-router.get("/",  async (req, res) => {
+router.get("/", authMiddleware, roleMiddleware("Admin"), async (req, res) => {
   try {
     const users = await User.find(); // Retrieve all users from the database
 
@@ -496,10 +524,8 @@ router.get("/",  async (req, res) => {
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: "Failed to retrieve users" });
-    
   }
 });
-
 
 /**
  * @swagger
@@ -549,26 +575,21 @@ router.put("/", authMiddleware, async (req, res) => {
     //   if (updatedOrder) updatedOrders.push(updatedOrder);
     // }
 
-
-
-    const  userData  = req.body;
+    const userData = req.body;
     const updateduserData = [];
     // Update all users with the provided data
     for (const user of userData) {
-      const updateduser = await User.findByIdAndUpdate(user._id, user, { new: true });
+      const updateduser = await User.findByIdAndUpdate(user._id, user, {
+        new: true,
+      });
       if (updateduserData) updateduserData.push(updateduser);
     }
 
-
     res.status(200).json({ message: "All users updated successfully!" });
   } catch (err) {
-   
     res.status(500).json({ message: "Failed to update users" });
-    
   }
 });
-
-
 
 // POST /api/users/forgot-password
 router.post("/forgot-password", async (req, res) => {
@@ -578,7 +599,9 @@ router.post("/forgot-password", async (req, res) => {
     // Kiểm tra xem email có tồn tại không
     const user = await User.findOne({ email });
     if (!user) {
-      return res.status(404).json({ message: "Email không tồn tại trong hệ thống." });
+      return res
+        .status(404)
+        .json({ message: "Email không tồn tại trong hệ thống." });
     }
 
     // Tạo mã xác thực
@@ -595,7 +618,9 @@ router.post("/forgot-password", async (req, res) => {
       text: `Mã đặt lại mật khẩu của bạn là: ${resetCode}. Mã có hiệu lực trong 10 phút.`,
     });
 
-    res.status(200).json({ message: "Mã đặt lại mật khẩu đã được gửi qua email." });
+    res
+      .status(200)
+      .json({ message: "Mã đặt lại mật khẩu đã được gửi qua email." });
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Lỗi khi gửi mã đặt lại mật khẩu." });
@@ -610,7 +635,9 @@ router.post("/reset-password", async (req, res) => {
     // Kiểm tra mã xác thực trong bộ nhớ
     const storedData = verificationCodes.get(email);
     if (!storedData || storedData.resetCode !== resetCode) {
-      return res.status(400).json({ message: "Mã xác thực không hợp lệ hoặc đã hết hạn." });
+      return res
+        .status(400)
+        .json({ message: "Mã xác thực không hợp lệ hoặc đã hết hạn." });
     }
 
     // Kiểm tra thời gian hết hạn (10 phút)
@@ -623,7 +650,9 @@ router.post("/reset-password", async (req, res) => {
     // Cập nhật mật khẩu mới
     const user = await User.findOne({ email });
     if (!user) {
-      return res.status(404).json({ message: "Email không tồn tại trong hệ thống." });
+      return res
+        .status(404)
+        .json({ message: "Email không tồn tại trong hệ thống." });
     }
 
     user.password = newPassword; // Cần hash mật khẩu nếu cần
@@ -638,6 +667,5 @@ router.post("/reset-password", async (req, res) => {
     res.status(500).json({ message: "Lỗi khi đặt lại mật khẩu." });
   }
 });
-
 
 module.exports = router;

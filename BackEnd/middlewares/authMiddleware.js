@@ -15,6 +15,7 @@ const authMiddleware = async (req, res, next) => {
     const decoded = jwt.verify(token.replace('Bearer ', ''), process.env.JWT_SECRET); // Lấy phần token sau "Bearer"
 
     // Lưu thông tin user vào request để sử dụng ở các phần tiếp theo
+    req.tokenPayload = decoded;
     req.user = await User.findById(decoded.userId);
 
 

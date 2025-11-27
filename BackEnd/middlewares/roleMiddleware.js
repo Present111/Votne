@@ -1,17 +1,20 @@
-// Middleware kiểm tra role
+// Role guard middleware that checks the JWT payload role
 const roleMiddleware = (requiredRoles) => {
-    return (req, res, next) => {
-      if (!req.user) {
-        return res.status(401).json({ message: 'User not authenticated' });
-      }
-  
-      if (!requiredRoles.includes(req.user.role)) {
-        return res.status(403).json({ message: 'Access denied: insufficient permissions' });
-      }
-  
-      next(); // Tiếp tục nếu người dùng có quyền
-    };
+  const roles = Array.isArray(requiredRoles) ? requiredRoles : [requiredRoles];
+
+  return (req, res, next) => {
+    const payloadRole = req.tokenPayload?.role;
+
+    if (!payloadRole) {
+      return res.status(401).json({ message: 'User not authenticated' });
+    }
+
+    if (!roles.includes(payloadRole)) {
+      return res.status(403).json({ message: 'Access denied: insufficient permissions' });
+    }
+
+    next(); // proceed when the user has the required role
   };
-  
-  module.exports = roleMiddleware;
-  
+};
+
+module.exports = roleMiddleware;
