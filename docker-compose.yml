@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./BackEnd
+      dockerfile: Dockerfile
+    container_name: votne-backend
+    env_file:
+      - ./BackEnd/.env
+    ports:
+      - "8081:8081"
+    # Dev mode: mount code từ host vào container để sửa code là thấy
+    volumes:
+      - ./BackEnd:/usr/src/app
+      - /usr/src/app/node_modules
+
+  frontend:
+    build:
+      context: ./FrontEnd
+      dockerfile: Dockerfile
+    container_name: votne-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    volumes:
+      - ./FrontEnd:/usr/src/app
+      - /usr/src/app/node_modules
+    stdin_open: true
+    tty: true
