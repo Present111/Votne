@@ -1,8 +1,13 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 // API endpoint cho việc upload file
 const UPLOAD_API_URL = "http://localhost:8081/api/upload";
+
+// Lấy token từ localStorage (giống như userSlice)
+const getAuthToken = () => {
+  return localStorage.getItem("token");
+};
 
 // AsyncThunk để xử lý việc upload file
 export const uploadFile = createAsyncThunk(
@@ -23,16 +28,20 @@ export const uploadFile = createAsyncThunk(
 
       const base64Data = await toBase64(file);
 
-      // ---- GỬI JSON THAY VÌ MULTIPART ----
+      // Lấy token từ localStorage
+      const token = getAuthToken();
+
+      // ---- GỬI JSON THAY VÌ MULTIPART VỚI TOKEN ----
       const response = await axios.post(
         UPLOAD_API_URL,
         {
-          filename: file.name,  // giữ nguyên behavior (chỉ thay body)
-          data: base64Data      // base64 content
+          filename: file.name, // giữ nguyên behavior (chỉ thay body)
+          data: base64Data, // base64 content
         },
         {
           headers: {
             "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`, // ✅ Thêm token vào header
           },
         }
       );

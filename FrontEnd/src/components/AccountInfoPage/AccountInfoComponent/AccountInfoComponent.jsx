@@ -1,12 +1,22 @@
-import React, { useEffect, useState } from 'react';
-import styled from 'styled-components';
-import { Button, Input, Select, DatePicker, Form, Typography, Row, Col, message } from 'antd';
-import { jwtDecode } from 'jwt-decode';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchUserById, updateUser } from '../../../redux/Slicer/userSlice';
-import { uploadFile } from '../../../redux/Slicer/uploadSlice';
-import moment from 'moment';
+import {
+  Button,
+  Col,
+  DatePicker,
+  Form,
+  Input,
+  message,
+  Row,
+  Select,
+  Typography,
+} from "antd";
+import { jwtDecode } from "jwt-decode";
+import moment from "moment";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import styled from "styled-components";
 import { validateUserInfoModule } from "../../../modules/validateUserInfoModule";
+import { uploadFile } from "../../../redux/Slicer/uploadSlice";
+import { fetchUserById, updateUser } from "../../../redux/Slicer/userSlice";
 
 const { Title } = Typography;
 
@@ -34,7 +44,7 @@ const AvatarImg = styled.img`
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #fff;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.25);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
   transition: 0.25s ease-in-out;
 
   &:hover {
@@ -49,7 +59,7 @@ const UploadInput = styled.input`
 const StyledButton = styled(Button)`
   width: 100%;
   margin-top: 15px;
-  background-color: #1DA0F1;
+  background-color: #1da0f1;
   color: #fff;
 
   &:hover {
@@ -61,7 +71,7 @@ const AccountInfoComponent = () => {
   const [form] = Form.useForm();
   const dispatch = useDispatch();
 
-  const [errorMessage, setErrorMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState("");
   const [avatarLoading, setAvatarLoading] = useState(false);
 
   // 👉 Avatar preview
@@ -70,7 +80,7 @@ const AccountInfoComponent = () => {
   const { user } = useSelector((state) => state.user);
 
   // 👉 Lấy userId
-  const token = localStorage.getItem('token');
+  const token = localStorage.getItem("token");
   const decodedToken = token ? jwtDecode(token) : {};
   const userId = decodedToken?.userId;
 
@@ -125,17 +135,30 @@ const AccountInfoComponent = () => {
       const values = await form.validateFields();
 
       // Validate
-      if (!validateUserInfoModule(values.username, values.phoneNumber, user.email, values.address, values.dateOfBirth, values.gender))
+      if (
+        !validateUserInfoModule(
+          values.username,
+          values.phoneNumber,
+          user.email,
+          values.address,
+          values.dateOfBirth,
+          values.gender
+        )
+      )
         return;
 
-      await dispatch(updateUser({
-        userId,
-        userData: {
-          ...values,
-          avatarUrl: avatarPreview, // 👉 Lưu avatar vào DB
-          dateOfBirth: values.dateOfBirth ? values.dateOfBirth.toISOString() : null,
-        }
-      })).unwrap();
+      await dispatch(
+        updateUser({
+          userId,
+          userData: {
+            ...values,
+            avatarUrl: avatarPreview, // 👉 Lưu avatar vào DB
+            dateOfBirth: values.dateOfBirth
+              ? values.dateOfBirth.toISOString()
+              : null,
+          },
+        })
+      ).unwrap();
 
       // 👉 Lưu avatar vào localStorage để Header xài
       localStorage.setItem("avatarUrl", avatarPreview);
@@ -143,7 +166,6 @@ const AccountInfoComponent = () => {
       message.success("Cập nhật thông tin thành công!");
 
       window.location.reload();
-
     } catch (err) {
       console.error(err);
       message.error("Cập nhật thất bại!");
@@ -163,7 +185,7 @@ const AccountInfoComponent = () => {
           />
         </AvatarBox>
 
-        <UploadInput type="file" accept="image/*" onChange={handleUploadAvatar} />
+        <UploadInput type="file" accept="*" onChange={handleUploadAvatar} />
         {avatarLoading && <p>Đang tải ảnh...</p>}
       </AvatarWrapper>
 

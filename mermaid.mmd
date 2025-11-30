@@ -1,0 +1,115 @@
+erDiagram
+  USER {
+    string id
+    string username
+    string email
+    string password_hashed
+    string phoneNumber
+    string address
+    string gender
+    date   dateOfBirth
+    string role
+    bool   isActive
+    string avatarUrl
+    date   createdAt
+    date   updatedAt
+  }
+
+  ATTRIBUTEVALUE {
+    string id
+    string value
+    bool   active
+  }
+
+  ATTRIBUTE {
+    string id
+    string name
+    string type
+    bool   active
+  }
+
+  PRODUCT {
+    string id
+    string name
+    string description
+    string type
+    string brand
+    bool   active
+    number sold
+    date   createdAt
+    date   updatedAt
+  }
+
+  COLOR {
+    string id
+    string colorName
+    number price
+    number discountPrice
+    string images
+  }
+
+  INVENTORY {
+    number quantity
+  }
+
+  ENDOW {
+    string id
+    string description
+    bool   active
+  }
+
+  CART {
+    string id
+    date   createdAt
+    date   updatedAt
+  }
+
+  CARTITEM {
+    number price
+    number quantity
+    string colorid
+  }
+
+  "ORDER" {
+    string id
+    string name
+    string phone
+    string address
+    string email
+    string description
+    string cancelReason
+    string status
+    string location
+    date   dayorder
+    string paymentMethod
+    string paymentStatus
+    date   createdAt
+    date   updatedAt
+  }
+
+  ORDERITEM {
+    number price
+    number quantity
+    string colorid
+  }
+
+  USER ||--o{ CART : iduser
+  USER ||--o{ "ORDER" : iduser
+
+  ATTRIBUTEVALUE ||--o{ ATTRIBUTE : values
+  ATTRIBUTEVALUE ||--o{ PRODUCT : attributeValues
+
+  PRODUCT ||--o{ CARTITEM : idproduct
+  PRODUCT ||--o{ ORDERITEM : idproduct
+
+  ATTRIBUTEVALUE ||--o{ CARTITEM : idattributevalue
+  ATTRIBUTEVALUE ||--o{ ORDERITEM : idattributevalue
+
+  PRODUCT ||--o{ COLOR : colors
+  COLOR ||--o{ INVENTORY : inventory_attribute
+  ATTRIBUTEVALUE ||--o{ INVENTORY : attribute_ref
+
+  PRODUCT ||--o{ ENDOW : endows
+
+  CART ||--o{ CARTITEM : products
+  "ORDER" ||--o{ ORDERITEM : products
