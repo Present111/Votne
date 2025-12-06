@@ -1,0 +1,1992 @@
+[{
+  "_id": {
+    "$oid": "6751afe08c0def2484c4e314"
+  },
+  "id": "AV001",
+  "name": "Mức giá",
+  "type": "Vợt",
+  "values": [
+    {
+      "$oid": "6751a8898c0def2484c4e0aa"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0ab"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0ac"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0ad"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0ae"
+    },
+    {
+      "$oid": "675827c34cdafbf30e28153a"
+    },
+    {
+      "$oid": "675827c34cdafbf30e28153e"
+    }
+  ],
+  "active": true,
+  "__v": 21
+},
+{
+  "_id": {
+    "$oid": "6751b02d8c0def2484c4e31e"
+  },
+  "id": "AV002",
+  "name": "Thương hiệu",
+  "type": "Vợt",
+  "values": [
+    {
+      "$oid": "6751a8898c0def2484c4e0af"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0b0"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0b1"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0b2"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0b3"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0b4"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0b5"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0b6"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0b7"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0b8"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0b9"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0ba"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0bb"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0bc"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0bd"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0be"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0bf"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0c0"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0c1"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0c2"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0c3"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0c4"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0c5"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0c6"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0c7"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0c8"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0c9"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0ca"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0cb"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0cc"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0cd"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0ce"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0cf"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0d0"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0d1"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0d2"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0d3"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0d4"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0d5"
+    }
+  ],
+  "active": true,
+  "__v": 9
+},
+{
+  "_id": {
+    "$oid": "6751b0848c0def2484c4e326"
+  },
+  "id": "AV003",
+  "name": "Chiều dài vợt",
+  "type": "Vợt",
+  "values": [
+    {
+      "$oid": "6751a8898c0def2484c4e0d6"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0d7"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0d8"
+    }
+  ],
+  "active": true,
+  "__v": 9
+},
+{
+  "_id": {
+    "$oid": "6751b0e18c0def2484c4e32d"
+  },
+  "id": "AV004",
+  "name": "Chiều dài cán vợt",
+  "type": "Vợt",
+  "values": [
+    {
+      "$oid": "6751a8898c0def2484c4e0d9"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0da"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0db"
+    }
+  ],
+  "active": true,
+  "__v": 9
+},
+{
+  "_id": {
+    "$oid": "6751b1378c0def2484c4e333"
+  },
+  "id": "AV005",
+  "name": "Swingweight",
+  "type": "Vợt",
+  "values": [
+    {
+      "$oid": "6751a8898c0def2484c4e0dc"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0dd"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0de"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0df"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0e0"
+    }
+  ],
+  "active": true,
+  "__v": 9
+},
+{
+  "_id": {
+    "$oid": "6751b1918c0def2484c4e337"
+  },
+  "id": "AV006",
+  "name": "Size",
+  "type": "Vợt",
+  "values": [
+    {
+      "$oid": "6751a8898c0def2484c4e0e1"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0e2"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0e3"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0e4"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0e5"
+    },
+    {
+      "$oid": "6751a8898c0def2484c4e0e6"
+    }
+  ],
+  "active": true,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6751b2448c0def2484c4e34a"
+  },
+  "id": "AV007",
+  "name": "Điểm cân bằng",
+  "type": "Vợt",
+  "values": [],
+  "active": true,
+  "__v": 10
+},
+{
+  "_id": {
+    "$oid": "6751b2928c0def2484c4e350"
+  },
+  "id": "AV008",
+  "name": "Độ cứng đũa",
+  "type": "Vợt",
+  "values": [
+    {
+      "$oid": "6751a9398c0def2484c4e0ed"
+    },
+    {
+      "$oid": "6751a9398c0def2484c4e0ee"
+    },
+    {
+      "$oid": "6751a9398c0def2484c4e0ef"
+    },
+    {
+      "$oid": "6751a9398c0def2484c4e0f0"
+    }
+  ],
+  "active": true,
+  "__v": 9
+},
+{
+  "_id": {
+    "$oid": "6751b2f58c0def2484c4e363"
+  },
+  "id": "AV009",
+  "name": "Phong cách chơi",
+  "type": "Vợt",
+  "values": [],
+  "active": true,
+  "__v": 3
+},
+{
+  "_id": {
+    "$oid": "6751b33b8c0def2484c4e36a"
+  },
+  "id": "AV010",
+  "name": "Nội dung chơi",
+  "type": "Vợt",
+  "values": [
+    {
+      "$oid": "6751a9398c0def2484c4e0f4"
+    },
+    {
+      "$oid": "6751a9398c0def2484c4e0f5"
+    },
+    {
+      "$oid": "6751a9398c0def2484c4e0f6"
+    }
+  ],
+  "active": true,
+  "__v": 8
+},
+{
+  "_id": {
+    "$oid": "6751b3788c0def2484c4e36e"
+  },
+  "id": "AV011",
+  "name": "Trình độ chơi",
+  "type": "Vợt",
+  "values": [
+    {
+      "$oid": "6751a9398c0def2484c4e0f7"
+    },
+    {
+      "$oid": "6751a9398c0def2484c4e0f8"
+    },
+    {
+      "$oid": "6751a9398c0def2484c4e0f9"
+    }
+  ],
+  "active": true,
+  "__v": 9
+},
+{
+  "_id": {
+    "$oid": "6751b3fd8c0def2484c4e373"
+  },
+  "id": "AV012",
+  "name": "Công nghệ",
+  "type": "Vợt",
+  "values": [],
+  "active": true,
+  "__v": 7
+},
+{
+  "_id": {
+    "$oid": "6751bea6293c5b58e0403aec"
+  },
+  "id": "AG001",
+  "name": "Mức giá",
+  "type": "Giày",
+  "values": [
+    {
+      "$oid": "6751aa7a8c0def2484c4e157"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e158"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e159"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e15a"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e15b"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751bf8c293c5b58e0403af5"
+  },
+  "id": "AG002",
+  "name": "Thương hiệu",
+  "type": "Giày",
+  "values": [
+    {
+      "$oid": "6751aa7a8c0def2484c4e15c"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e15d"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e15e"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e15f"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e160"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e161"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e162"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e163"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e164"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e165"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e166"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e167"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e168"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e169"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e16a"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e16b"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e16c"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e16d"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e16e"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e16f"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e170"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e171"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e172"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e173"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e174"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e175"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e176"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e177"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751bfe1293c5b58e0403af9"
+  },
+  "id": "AG003",
+  "name": "Đối tượng",
+  "type": "Giày",
+  "values": [
+    {
+      "$oid": "6751aa7a8c0def2484c4e178"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e179"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e17a"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e17b"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c026293c5b58e0403afd"
+  },
+  "id": "AG004",
+  "name": "Size",
+  "type": "Giày",
+  "values": [
+    {
+      "$oid": "6751aa7a8c0def2484c4e17c"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e17d"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e17e"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e17f"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e180"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e181"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e182"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e183"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e184"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e185"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e186"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e187"
+    },
+    {
+      "$oid": "6751aa7a8c0def2484c4e188"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e18a"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e18b"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e18c"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e18d"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e18e"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c067293c5b58e0403b01"
+  },
+  "id": "AG005",
+  "name": "Điểm nổi bật",
+  "type": "Giày",
+  "values": [
+    {
+      "$oid": "6751ab9b8c0def2484c4e18f"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e190"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e191"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e192"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c0fd293c5b58e0403b08"
+  },
+  "id": "AG006",
+  "name": "Form giày",
+  "type": "Giày",
+  "values": [
+    {
+      "$oid": "6751ab9b8c0def2484c4e193"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e194"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e195"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c0fd293c5b58e0403b09"
+  },
+  "id": "AG007",
+  "name": "Thể loại chơi",
+  "type": "Giày",
+  "values": [
+    {
+      "$oid": "6751ab9b8c0def2484c4e196"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e197"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e198"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c0fd293c5b58e0403b0a"
+  },
+  "id": "AG008",
+  "name": "Phân khúc",
+  "type": "Giày",
+  "values": [
+    {
+      "$oid": "6751ab9b8c0def2484c4e199"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e19a"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e19b"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c17a293c5b58e0403b11"
+  },
+  "id": "AG009",
+  "name": "Công nghệ",
+  "type": "Giày",
+  "values": [
+    {
+      "$oid": "6751ab9b8c0def2484c4e19c"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e19d"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e19e"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e19f"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1a0"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1a1"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1a2"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1a3"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1a4"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1a5"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1a6"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1a7"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1a8"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1a9"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1aa"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1ab"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1ac"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1ad"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1ae"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1af"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1b0"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1b1"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1b2"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1b3"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1b4"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1b5"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1b6"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1b7"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1b8"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1b9"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1ba"
+    },
+    {
+      "$oid": "6751ab9b8c0def2484c4e1bb"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1bd"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1be"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1bf"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1c0"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1c1"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1c2"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1c3"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1c4"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1c5"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1c6"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1c7"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1c8"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1c9"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1ca"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1cb"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1cc"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1cd"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1ce"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1cf"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1d0"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1d1"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1d2"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1d3"
+    },
+    {
+      "$oid": "6751abaa8c0def2484c4e1d4"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1d6"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1d7"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1d8"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1d9"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1da"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1db"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1dc"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1dd"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1de"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1df"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1e0"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1e1"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1e2"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1e3"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1e4"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1e5"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1e6"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1e7"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1e8"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1e9"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1ea"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1eb"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1ec"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1ed"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1ee"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1ef"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1f0"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1f1"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1f2"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1f3"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1f4"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1f5"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1f6"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1f7"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1f8"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1f9"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1fa"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1fb"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1fc"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1fd"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1fe"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e1ff"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e200"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e201"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e202"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e203"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e204"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e205"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e206"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e207"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e208"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e209"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e20a"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e20b"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e20c"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e20d"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e20e"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e20f"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e210"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e211"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e212"
+    },
+    {
+      "$oid": "6751abf38c0def2484c4e213"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c1f3293c5b58e0403b15"
+  },
+  "id": "AA001",
+  "name": "Mức giá",
+  "type": "Áo",
+  "values": [
+    {
+      "$oid": "6751ac2c8c0def2484c4e215"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e216"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e217"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e218"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e219"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c369293c5b58e0403b22"
+  },
+  "id": "AA003",
+  "name": "Đối tượng",
+  "type": "Áo",
+  "values": [
+    {
+      "$oid": "6751ac2c8c0def2484c4e233"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e234"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c369293c5b58e0403b21"
+  },
+  "id": "AA002",
+  "name": "Thương hiệu",
+  "type": "Áo",
+  "values": [
+    {
+      "$oid": "6751ac2c8c0def2484c4e21a"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e21b"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e21c"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e21d"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e21e"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e21f"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e220"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e221"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e222"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e223"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e224"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e225"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e226"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e227"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e228"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e229"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e22a"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e22b"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e22c"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e22d"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e22e"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e22f"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e230"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e231"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e232"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c369293c5b58e0403b23"
+  },
+  "id": "AA004",
+  "name": "Size",
+  "type": "Áo",
+  "values": [
+    {
+      "$oid": "6751ac2c8c0def2484c4e235"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e236"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e237"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e238"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e239"
+    },
+    {
+      "$oid": "6751ac2c8c0def2484c4e23a"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c3f3293c5b58e0403b2b"
+  },
+  "id": "AVV002",
+  "name": "Thương hiệu",
+  "type": "Váy",
+  "values": [
+    {
+      "$oid": "6751ac4f8c0def2484c4e241"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e242"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e243"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e244"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e245"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e246"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e247"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e248"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e249"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e24a"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c3f3293c5b58e0403b2a"
+  },
+  "id": "AVV001",
+  "name": "Mức giá",
+  "type": "Váy",
+  "values": [
+    {
+      "$oid": "6751ac4f8c0def2484c4e23c"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e23d"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e23e"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e23f"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e240"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c3f3293c5b58e0403b2c"
+  },
+  "id": "AVV003",
+  "name": "Size",
+  "type": "Váy",
+  "values": [
+    {
+      "$oid": "6751ac4f8c0def2484c4e24b"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e24c"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e24d"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e24e"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e24f"
+    },
+    {
+      "$oid": "6751ac4f8c0def2484c4e250"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c438293c5b58e0403b32"
+  },
+  "id": "AQ003",
+  "name": "Đối tượng",
+  "type": "Quần",
+  "values": [
+    {
+      "$oid": "6751ac848c0def2484c4e270"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e271"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c438293c5b58e0403b31"
+  },
+  "id": "AQ002",
+  "name": "Thương hiệu",
+  "type": "Quần",
+  "values": [
+    {
+      "$oid": "6751ac848c0def2484c4e257"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e258"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e259"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e25a"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e25b"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e25c"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e25d"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e25e"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e25f"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e260"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e261"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e262"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e263"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e264"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e265"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e266"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e267"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e268"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e269"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c438293c5b58e0403b30"
+  },
+  "id": "AQ001",
+  "name": "Mức giá",
+  "type": "Quần",
+  "values": [
+    {
+      "$oid": "6751ac848c0def2484c4e252"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e253"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e254"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e255"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e256"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c438293c5b58e0403b33"
+  },
+  "id": "AQ004",
+  "name": "Size",
+  "type": "Quần",
+  "values": [
+    {
+      "$oid": "6751ac848c0def2484c4e272"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e273"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e274"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e275"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e276"
+    },
+    {
+      "$oid": "6751ac848c0def2484c4e277"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c54c293c5b58e0403b41"
+  },
+  "id": "AT003",
+  "name": "Đối tượng",
+  "type": "Túi vợt",
+  "values": [
+    {
+      "$oid": "6751acb98c0def2484c4e292"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e293"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e294"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c54c293c5b58e0403b3f"
+  },
+  "id": "AT001",
+  "name": "Mức giá",
+  "type": "Túi vợt",
+  "values": [
+    {
+      "$oid": "6751acb98c0def2484c4e279"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e27a"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e27b"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e27c"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e27d"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c54c293c5b58e0403b42"
+  },
+  "id": "AT004",
+  "name": "Điểm nổi bật",
+  "type": "Túi vợt",
+  "values": [
+    {
+      "$oid": "6751acb98c0def2484c4e295"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e296"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c54c293c5b58e0403b43"
+  },
+  "id": "AT005",
+  "name": "Thể loại",
+  "type": "Túi vợt",
+  "values": [
+    {
+      "$oid": "6751acb98c0def2484c4e297"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e298"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c54c293c5b58e0403b44"
+  },
+  "id": "AT006",
+  "name": "Số ngăn lớn",
+  "type": "Túi vợt",
+  "values": [
+    {
+      "$oid": "6751acb98c0def2484c4e299"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e29a"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e29b"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c54c293c5b58e0403b40"
+  },
+  "id": "AT002",
+  "name": "Thương hiệu",
+  "type": "Túi vợt",
+  "values": [
+    {
+      "$oid": "6751acb98c0def2484c4e27e"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e27f"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e280"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e281"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e282"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e283"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e284"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e285"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e286"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e287"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e288"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e289"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e28a"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e28b"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e28c"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e28d"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e28e"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e28f"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e290"
+    },
+    {
+      "$oid": "6751acb98c0def2484c4e291"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c59a293c5b58e0403b48"
+  },
+  "id": "AB001",
+  "name": "Mức giá",
+  "type": "Balo",
+  "values": [
+    {
+      "$oid": "6751ace28c0def2484c4e2a5"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2a6"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2a7"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2a8"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2a9"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c59a293c5b58e0403b4b"
+  },
+  "id": "AB004",
+  "name": "Điểm nổi bật",
+  "type": "Balo",
+  "values": [
+    {
+      "$oid": "6751ace28c0def2484c4e2c5"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2c6"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c59a293c5b58e0403b4c"
+  },
+  "id": "AB005",
+  "name": "Thể loại",
+  "type": "Balo",
+  "values": [
+    {
+      "$oid": "6751ace28c0def2484c4e2c8"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2c9"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2ca"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2c7"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c59a293c5b58e0403b4a"
+  },
+  "id": "AB003",
+  "name": "Đối tượng",
+  "type": "Balo",
+  "values": [
+    {
+      "$oid": "6751ace28c0def2484c4e2c2"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2c3"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2c4"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c6e9293c5b58e0403b53"
+  },
+  "id": "AP001",
+  "name": "Mức giá",
+  "type": "Phụ kiện",
+  "values": [
+    {
+      "$oid": "6751ad1d8c0def2484c4e2cc"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2cd"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2ce"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2cf"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2d0"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c6e9293c5b58e0403b54"
+  },
+  "id": "AP002",
+  "name": "Thương hiệu",
+  "type": "Phụ kiện",
+  "values": [
+    {
+      "$oid": "6751ad1d8c0def2484c4e2d1"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2d2"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2d3"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2d4"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2d5"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2d6"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2d7"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2d8"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2d9"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2da"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2db"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2dc"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2dd"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2de"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2df"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2e0"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2e1"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2e2"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2e3"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2e4"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2e5"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2e6"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2e7"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2e8"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2e9"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2ea"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2eb"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2ec"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2ed"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2ee"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2ef"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2f0"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2f1"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2f2"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2f3"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2f4"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2f5"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2f6"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2f7"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2f8"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2f9"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2fa"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2fb"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2fc"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2fd"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2fe"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e2ff"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e300"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e301"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e302"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e303"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e304"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e305"
+    },
+    {
+      "$oid": "6751ad1d8c0def2484c4e306"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751c59a293c5b58e0403b49"
+  },
+  "id": "AB002",
+  "name": "Thương hiệu",
+  "type": "Balo",
+  "values": [
+    {
+      "$oid": "6751ace28c0def2484c4e2aa"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2ab"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2ac"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2ad"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2ae"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2af"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2b0"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2b1"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2b2"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2b3"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2b4"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2b5"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2b6"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2b7"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2b8"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2b9"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2ba"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2bb"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2bc"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2bd"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2be"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2bf"
+    },
+    {
+      "$oid": "6751ace28c0def2484c4e2c0"
+    }
+  ],
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "67a8c4d3d0954914596eed24"
+  },
+  "id": "AV0006",
+  "name": "Size",
+  "type": "Túi vợt",
+  "values": [
+    {
+      "$oid": "6753d3aa57523981f583f405"
+    }
+  ],
+  "active": true,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "67a8c4d3d0954914596eed25"
+  },
+  "id": "AV0010",
+  "name": "Size",
+  "type": "Balo",
+  "values": [
+    {
+      "$oid": "6753d3aa57523981f583f405"
+    }
+  ],
+  "active": true,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "67a8c4d3d0954914596eed26"
+  },
+  "id": "AV0008",
+  "name": "Size",
+  "type": "Phụ kiện",
+  "values": [
+    {
+      "$oid": "6753d3aa57523981f583f405"
+    }
+  ],
+  "active": true,
+  "__v": 5
+}]

@@ -1,0 +1,483 @@
+[{
+  "_id": {
+    "$oid": "67a5d0857ef7055c345739ab"
+  },
+  "locationID": "L0001",
+  "locationName": "Đường Tạ Quang Bửu, Khu phố 6, Thủ Đức, Hồ Chí Minh, Vietnam",
+  "description": "ChIJ6Xfk9KXYdDERC-LOZbOu1Sk",
+  "latitude": 10.8782463,
+  "longitude": 106.8062905
+},
+{
+  "_id": {
+    "$oid": "67a5fd270aacc1a93b885a26"
+  },
+  "locationID": "ChIJw_8KbOyrNTER-662CoBWlnQ",
+  "locationName": "8a P. Phan Chu Trinh, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJw_8KbOyrNTER-662CoBWlnQ",
+  "latitude": 21.02309217039902,
+  "longitude": 105.85651742858889,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a5fd55ce7c2209fa18d156"
+  },
+  "locationID": "ChIJFStYEACrNTER-bJEa_SbzsM",
+  "locationName": "2VC5+GCP, Phan Chu Trinh, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJFStYEACrNTER-bJEa_SbzsM",
+  "latitude": 21.02128951693597,
+  "longitude": 105.85844861907961,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a5fd87ce7c2209fa18d162"
+  },
+  "locationID": "ChIJkwUE37HYdDERMoh7o7o8Wok",
+  "locationName": "140 Vành Đai Đhqg, Đông Hoà, Dĩ An, Bình Dương, Vietnam",
+  "description": "ChIJkwUE37HYdDERMoh7o7o8Wok",
+  "latitude": 10.88107707587629,
+  "longitude": 106.81024577625257,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a5fe06ce7c2209fa18d17c"
+  },
+  "locationID": "ChIJkYlgxvurNTER8-qPRyDwcu4",
+  "locationName": "15 P. Ngô Quyền, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJkYlgxvurNTER8-qPRyDwcu4",
+  "latitude": 21.025695964697427,
+  "longitude": 105.8557449523926,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a5fe22ce7c2209fa18d184"
+  },
+  "locationID": "ChIJjSlLbuyrNTERKsfPsWL6two",
+  "locationName": "8c P. Hai Bà Trưng, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJjSlLbuyrNTERKsfPsWL6two",
+  "latitude": 21.023452698476017,
+  "longitude": 105.85638868255617,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a5fe6cce7c2209fa18d186"
+  },
+  "locationID": "ChIJX43LLeyrNTER-tWCvWaw8XE",
+  "locationName": "46 P. Lê Thánh Tông, Phan Chu Trinh, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJX43LLeyrNTER-tWCvWaw8XE",
+  "latitude": 21.021650049372248,
+  "longitude": 105.85771905822756,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a5ff10ce7c2209fa18d188"
+  },
+  "locationID": "ChIJga8IoeurNTER0b_AEdEccAY",
+  "locationName": "47-31 P. Lê Phụng Hiểu, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJga8IoeurNTER0b_AEdEccAY",
+  "latitude": 21.02593631264747,
+  "longitude": 105.8555303756714,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a5ff57ce7c2209fa18d190"
+  },
+  "locationID": "ChIJXw_zeOyrNTERC9k87ih-s20",
+  "locationName": "12 Ng. Tràng Tiền, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJXw_zeOyrNTERC9k87ih-s20",
+  "latitude": 21.024253868858892,
+  "longitude": 105.85587369842531,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a5ffa5ce7c2209fa18d192"
+  },
+  "locationID": "ChIJb91qfeurNTERlaoPfvLR4iU",
+  "locationName": "18 P. Ngô Quyền, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJb91qfeurNTERlaoPfvLR4iU",
+  "latitude": 21.024614394126438,
+  "longitude": 105.85497247619631,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a6051ace7c2209fa18d1ca"
+  },
+  "locationID": "ChIJlTCvYemrNTERPGC2jxylJm0",
+  "locationName": "D1 - 2 P. Lý Thái Tổ, 24+Tổ, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJlTCvYemrNTERPGC2jxylJm0",
+  "latitude": 21.025615848627957,
+  "longitude": 105.8583198730469,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a6057bce7c2209fa18d1f5"
+  },
+  "locationID": "ChIJi9V9KcCrNTERjeATDIuhZUA",
+  "locationName": "Floor 3, 41 P. Lý Thái Tổ, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJi9V9KcCrNTERjeATDIuhZUA",
+  "latitude": 21.026737469682015,
+  "longitude": 105.85656034393313,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a60644ce7c2209fa18d212"
+  },
+  "locationID": "ChIJF1srWOmrNTERPuzP43DZFRc",
+  "locationName": "1A Tràng Tiền - Tập Đoàn Hóa Chất Việt Nam, French Quarter, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJF1srWOmrNTERPuzP43DZFRc",
+  "latitude": 21.024974918522055,
+  "longitude": 105.85870611114504,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61101ce7c2209fa18dd41"
+  },
+  "locationID": "ChIJ6Xfk9KXYdDERC-LOZbOu1Sk",
+  "locationName": "Đường Tạ Quang Bửu, Khu phố 6, Thủ Đức, Hồ Chí Minh, Vietnam",
+  "description": "ChIJ6Xfk9KXYdDERC-LOZbOu1Sk",
+  "latitude": 10.8782463,
+  "longitude": 106.8062905,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a614d7ce7c2209fa18e6ea"
+  },
+  "locationID": "ChIJv9WaflgndTERkTy-yPlm-go",
+  "locationName": "Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Hồ Chí Minh, Vietnam",
+  "description": "ChIJv9WaflgndTERkTy-yPlm-go",
+  "latitude": 10.8700089,
+  "longitude": 106.8030541,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61a24c139302c4fced076"
+  },
+  "locationID": "ChIJM8IgSTWrNTERN0_cv6MTA10",
+  "locationName": "144 Đ. Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Vietnam",
+  "description": "ChIJM8IgSTWrNTERN0_cv6MTA10",
+  "latitude": 21.03823839999999,
+  "longitude": 105.782679,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61a9ac139302c4fced0a2"
+  },
+  "locationID": "ChIJIWyk8OqrNTER2CGg7iI6VjE",
+  "locationName": "15 P. Ngô Quyền, French Quarter, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJIWyk8OqrNTER2CGg7iI6VjE",
+  "latitude": 21.025615848627957,
+  "longitude": 105.85561620635988,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61b8a953713a0169807c2"
+  },
+  "locationID": "ChIJi4hzxeurNTERNtWUsS6_OE8",
+  "locationName": "10 P. Lê Phụng Hiểu, Tràng Tiền, Hoàn Kiếm, Hà Nội 10000, Vietnam",
+  "description": "ChIJi4hzxeurNTERNtWUsS6_OE8",
+  "latitude": 21.02637694954936,
+  "longitude": 105.85741865081789,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61c08953713a0169807e3"
+  },
+  "locationID": "ChIJfzYJTuqrNTEReQeZw2ryNsk",
+  "locationName": "35 P. Lê Lai, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJfzYJTuqrNTEReQeZw2ryNsk",
+  "latitude": 21.027298277044014,
+  "longitude": 105.8560882751465,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61c25953713a0169807ec"
+  },
+  "locationID": "ChIJrbqh_eurNTERAjK7pbx5cgQ",
+  "locationName": "1 Tràng Tiền, Phan Chu Trinh, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJrbqh_eurNTERAjK7pbx5cgQ",
+  "latitude": 21.024293927265024,
+  "longitude": 105.85784780426027,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61c57953713a016980812"
+  },
+  "locationID": "ChIJXbsJjuqrNTERh8vDJlftiNE",
+  "locationName": "18 P. Trần Nguyên Hãn, Lý Thái Tổ, Hoàn Kiếm, Hà Nội 11000, Vietnam",
+  "description": "ChIJXbsJjuqrNTERh8vDJlftiNE",
+  "latitude": 21.029180972040667,
+  "longitude": 105.85475789947512,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61cbe953713a016980823"
+  },
+  "locationID": "ChIJjUxWXuqrNTERhlfo0axBRrE",
+  "locationName": "83 P. Lý Thái Tổ, Lý Thái Tổ, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJjUxWXuqrNTERhlfo0axBRrE",
+  "latitude": 21.028459942724258,
+  "longitude": 105.85561620635988,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61ceb953713a01698089c"
+  },
+  "locationID": "ChIJT6TGT6KrNTERVsXW94d1G0M",
+  "locationName": "24 P. Hai Bà Trưng, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJT6TGT6KrNTERVsXW94d1G0M",
+  "latitude": 21.024253868858892,
+  "longitude": 105.85394250793459,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61d94a4efbaef8c2e1a5c"
+  },
+  "locationID": "ChIJ9-zNmeurNTERQ0_X9snNmZQ",
+  "locationName": "35, Hang Dau Street, Ly Thai To Ward, Hoan Kiem District, Ha Noi City, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJ9-zNmeurNTERQ0_X9snNmZQ",
+  "latitude": 21.02549567444302,
+  "longitude": 105.8560882751465,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61ddca4efbaef8c2e1ad5"
+  },
+  "locationID": "ChIJWfLmu-urNTERsEWH6UMWTJs",
+  "locationName": "53 P. Lý Thái Tổ, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJWfLmu-urNTERsEWH6UMWTJs",
+  "latitude": 21.026056486477167,
+  "longitude": 105.85651742858889,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61e40a4efbaef8c2e1b15"
+  },
+  "locationID": "ChIJj9BfneurNTERblt1idDfZME",
+  "locationName": "Tầng 4, Tòa Nhà International, 17, Ngô Quyền, Quận Hoàn Kiếm, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJj9BfneurNTERblt1idDfZME",
+  "latitude": 21.02521526763473,
+  "longitude": 105.85557329101565,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61e92a4efbaef8c2e1b21"
+  },
+  "locationID": "ChIJc57aYuyrNTERqayr54Dqzuk",
+  "locationName": "8a P. Hai Bà Trưng, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJc57aYuyrNTERqayr54Dqzuk",
+  "latitude": 21.023452698476042,
+  "longitude": 105.85557329101565,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61f06a4efbaef8c2e1b43"
+  },
+  "locationID": "ChIJPeZ7NOqrNTERzkPyGb5dX4w",
+  "locationName": "14, 14 P. Tông Đản, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJPeZ7NOqrNTERzkPyGb5dX4w",
+  "latitude": 21.02717810421552,
+  "longitude": 105.8572040740967,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61f8aa4efbaef8c2e1b7a"
+  },
+  "locationID": "ChIJseLBBeurNTERUHBT0wbEc9U",
+  "locationName": "12 P. Ngô Quyền, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJseLBBeurNTERUHBT0wbEc9U",
+  "latitude": 21.026857642865814,
+  "longitude": 105.8555303756714,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "locationID": "ChIJoUulg-urNTERtUn-h-sgMoA",
+  "locationName": "30 Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJoUulg-urNTERtUn-h-sgMoA",
+  "latitude": 21.02481468556498,
+  "longitude": 105.85570203704836,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a6fa25de73cff030d27e99"
+  },
+  "locationID": "ChIJ_3-wB-urNTERCwvSS--sYFc",
+  "locationName": "2 P. Lê Thạch, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJ_3-wB-urNTERCwvSS--sYFc",
+  "latitude": 21.026657354172336,
+  "longitude": 105.85522996826174,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a6fa57de73cff030d27e9d"
+  },
+  "locationID": "ChIJFe_ZaFgndTERJF1S4683YBE",
+  "locationName": "Canteen ĐH CNTT, Phường Linh Trung, Thủ Đức, Hồ Chí Minh, Vietnam",
+  "description": "ChIJFe_ZaFgndTERJF1S4683YBE",
+  "latitude": 10.869292428390345,
+  "longitude": 106.80382657619629,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a6fadede73cff030d28143"
+  },
+  "locationID": "LOC-hv676csqfqom6vtl1e8",
+  "locationName": "Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Hồ Chí Minh, Vietnam",
+  "description": "ChIJv9WaflgndTERkTy-yPlm-go",
+  "latitude": 10.8700089,
+  "longitude": 106.8030541,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73a9b80adc36396b7e18e"
+  },
+  "locationID": "LOC-dffd6tglkkim6w3aryg",
+  "locationName": "Tòa Nhà International Centre, Phòng 301, 17, Ngô Quyền, Phường Tràng Tiền, Quận Hoàn Kiếm, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJY3fVguurNTER5e5iGleSgnM",
+  "latitude": 21.025135151306877,
+  "longitude": 105.85570203704836,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "locationID": "LOC-tbukb8qns1km6w3ck15",
+  "locationName": "10 Ng. Tràng Tiền, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJG79wVLirNTERqY41XOGNjSs",
+  "latitude": 21.023933401222425,
+  "longitude": 105.8563028518677,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8204e8f0588afb7abe84c"
+  },
+  "locationID": "LOC-39myau29cr3m6x2b4yt",
+  "locationName": "4 P. Hai Bà Trưng, Phan Chu Trinh, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJrRFaepSrNTERv--9DoHyXyc",
+  "latitude": 21.025655906668074,
+  "longitude": 105.84892141265871,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8205e8f0588afb7abe84e"
+  },
+  "locationID": "LOC-sub4vpf7s9m6x2bh87",
+  "locationName": "Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Hồ Chí Minh, Vietnam",
+  "description": "ChIJv9WaflgndTERkTy-yPlm-go",
+  "latitude": 10.8700089,
+  "longitude": 106.8030541,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8a68dd96fbe59fa446084"
+  },
+  "locationID": "LOC-rv9jjyk323m6xmrqgl",
+  "locationName": "Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Hồ Chí Minh, Vietnam",
+  "description": "ChIJv9WaflgndTERkTy-yPlm-go",
+  "latitude": 10.8700089,
+  "longitude": 106.8030541,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8a6b0d96fbe59fa446095"
+  },
+  "locationID": "LOC-apqi3ntiwtdm6xmshij",
+  "locationName": "720A Đ. Điện Biên Phủ, Vinhomes Tân Cảng, Bình Thạnh, Hồ Chí Minh 72300, Vietnam",
+  "description": "ChIJEQnz-MIndTERzRrJ-HNQrDY",
+  "latitude": 10.7951119,
+  "longitude": 106.722096,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8aa84d96fbe59fa4480d8"
+  },
+  "locationID": "ChIJ8YghseurNTERzKtjLvns2lE",
+  "locationName": "49 P. Lý Thái Tổ, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJ8YghseurNTERzKtjLvns2lE",
+  "latitude": 21.027258219445283,
+  "longitude": 105.85625993652346,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8ab6dd96fbe59fa44895c"
+  },
+  "locationID": "LOC-6aaz50utfl9m6xnihob",
+  "locationName": "24 P. Hai Bà Trưng, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "description": "ChIJAcpzbwCrNTERSsISiGsRwDQ",
+  "latitude": 21.025215267634707,
+  "longitude": 105.8531700317383,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a97d3cdd7a776f9161775c"
+  },
+  "locationID": "LOC-wgpywjvf5jm6yjhp9z",
+  "locationName": "720A Đ. Điện Biên Phủ, Vinhomes Tân Cảng, Bình Thạnh, Hồ Chí Minh 72300, Vietnam",
+  "description": "ChIJEQnz-MIndTERzRrJ-HNQrDY",
+  "latitude": 10.7951119,
+  "longitude": 106.722096,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a97d41dd7a776f9161775e"
+  },
+  "locationID": "LOC-f3wsr7og52um6yjhsod",
+  "locationName": "208 Nguyễn Hữu Cảnh, Vinhomes Tân Cảng, Bình Thạnh, Hồ Chí Minh, Vietnam",
+  "description": "ChIJpRDBF6kodTERExrFmmA11T4",
+  "latitude": 10.796376573780714,
+  "longitude": 106.72106603173826,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a99ca432d79a1856f5c903"
+  },
+  "locationID": "LOC-8jbxpbpf1wm6yoa0x7",
+  "locationName": "Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Hồ Chí Minh, Vietnam",
+  "description": "ChIJv9WaflgndTERkTy-yPlm-go",
+  "latitude": 10.8700089,
+  "longitude": 106.8030541,
+  "__v": 0
+}]

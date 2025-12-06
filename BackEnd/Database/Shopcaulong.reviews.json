@@ -1,0 +1,159 @@
+[{
+  "_id": {
+    "$oid": "67973f53daf067cb35690c45"
+  },
+  "id": "review2",
+  "userId": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "productId": {
+    "$oid": "6752719fcc52b6402f871780"
+  },
+  "comment": "Giá cả hợp lý, giao hàng nhanh chóng.",
+  "star": 4,
+  "date": {
+    "$date": "2025-01-27T08:09:55.023Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67973f53daf067cb35690c46"
+  },
+  "id": "review3",
+  "userId": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "productId": {
+    "$oid": "6752719fcc52b6402f871780"
+  },
+  "comment": "Đáng mua, sẽ ủng hộ thêm lần sau.",
+  "star": 5,
+  "date": {
+    "$date": "2025-01-27T08:09:55.023Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67973f53daf067cb35690c44"
+  },
+  "id": "review1",
+  "userId": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "productId": {
+    "$oid": "6752719fcc52b6402f871780"
+  },
+  "comment": "Sản phẩm rất tốt, chất lượng vượt mong đợi!",
+  "star": 5,
+  "date": {
+    "$date": "2025-01-27T08:09:55.023Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6797ad22c49aaddcf9abd490"
+  },
+  "id": "kbylclt3a",
+  "userId": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "productId": {
+    "$oid": "67527817cc52b6402f871794"
+  },
+  "comment": "",
+  "star": 3,
+  "date": {
+    "$date": "2025-01-27T15:58:26.729Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6797ae00a14eab371884972c"
+  },
+  "id": "lfpdyc5mt",
+  "userId": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "productId": {
+    "$oid": "67527817cc52b6402f871794"
+  },
+  "comment": "",
+  "star": 3,
+  "date": {
+    "$date": "2025-01-27T16:02:08.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6797ae1346af270d07a74f1a"
+  },
+  "id": "brfygzpgg",
+  "userId": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "productId": {
+    "$oid": "67527817cc52b6402f871794"
+  },
+  "comment": "",
+  "star": 3,
+  "date": {
+    "$date": "2025-01-27T16:02:27.685Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6797ae8546af270d07a74f4b"
+  },
+  "id": "op4vld1di",
+  "userId": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "productId": {
+    "$oid": "67527b86cc52b6402f87179a"
+  },
+  "comment": "",
+  "star": 5,
+  "date": {
+    "$date": "2025-01-27T16:04:21.729Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a980b7dd7a776f9161afc8"
+  },
+  "id": "freaerlmt",
+  "userId": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "productId": {
+    "$oid": "6752a860cc52b6402f8717c7"
+  },
+  "comment": "rất tốt",
+  "star": 3,
+  "date": {
+    "$date": "2025-02-10T04:29:43.110Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a99cee32d79a1856f5cd4e"
+  },
+  "id": "ed7d6uptr",
+  "userId": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "productId": {
+    "$oid": "67527817cc52b6402f871794"
+  },
+  "comment": "Rât tốt",
+  "star": 3,
+  "date": {
+    "$date": "2025-02-10T06:30:06.782Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "67a5d1d17ef7055c345739b3"
+  },
+  "location": {
+    "$oid": "67a61101ce7c2209fa18dd41"
+  },
+  "shippingCostPerKm": 5002,
+  "images": [
+    "https://cdn.shopvnb.com/img/1920x640/uploads/slider/ynx-eclp-banner_1695178004.webp",
+    "https://cdn.shopvnb.com/img/1920x640/uploads/slider/banner-sale-12_1695182579.webp",
+    "https://res.cloudinary.com/dxtslecpc/image/upload/v1739119359/shopcaulonguit/banner.webp"
+  ],
+  "rewardMilestones": [
+    {
+      "milestoneName": "Đồng",
+      "amount": 500000,
+      "orderCount": 3,
+      "discountPercentage": 3,
+      "maxDiscountAmount": 100000,
+      "_id": {
+        "$oid": "67a60575ce7c2209fa18d1f0"
+      }
+    },
+    {
+      "milestoneName": "Bạc",
+      "amount": 1000000,
+      "orderCount": 4,
+      "discountPercentage": 4,
+      "maxDiscountAmount": 200000,
+      "_id": {
+        "$oid": "67a60575ce7c2209fa18d1f1"
+      }
+    },
+    {
+      "milestoneName": "Vàng",
+      "amount": 2000000,
+      "orderCount": 5,
+      "discountPercentage": 5,
+      "maxDiscountAmount": 300000,
+      "_id": {
+        "$oid": "67a60575ce7c2209fa18d1f2"
+      }
+    },
+    {
+      "milestoneName": "Kim cương",
+      "amount": 5000000,
+      "orderCount": 10,
+      "discountPercentage": 10,
+      "maxDiscountAmount": 500000,
+      "_id": {
+        "$oid": "67a60575ce7c2209fa18d1f3"
+      }
+    }
+  ],
+  "accountName": "TRAN NGOC PHU",
+  "accountNumber": "5704558719",
+  "bankName": "BIDV"
+}]

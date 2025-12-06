@@ -1,0 +1,4905 @@
+[{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0aa"
+  },
+  "id": "VV001",
+  "value": "Dưới 500.000đ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0ab"
+  },
+  "id": "VV002",
+  "value": "500.000đ - 1 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0ac"
+  },
+  "id": "VV003",
+  "value": "1 - 2 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0af"
+  },
+  "id": "VV006",
+  "value": "VNB",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0b1"
+  },
+  "id": "VV008",
+  "value": "Lining",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0b7"
+  },
+  "id": "VV014",
+  "value": "Apacs",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0bb"
+  },
+  "id": "VV018",
+  "value": "Proace",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0be"
+  },
+  "id": "VV021",
+  "value": "DonexPro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0ca"
+  },
+  "id": "VV033",
+  "value": "Fleet",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0cc"
+  },
+  "id": "VV035",
+  "value": "Lotus",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0d6"
+  },
+  "id": "VV045",
+  "value": "665 mm",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0df"
+  },
+  "id": "VV054",
+  "value": "86 - 88 kg/cm2",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0e0"
+  },
+  "id": "VV055",
+  "value": "Trên 88 kg/cm2",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0e9"
+  },
+  "id": "VV064",
+  "value": "Hơi nặng đầu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0ad"
+  },
+  "id": "VV004",
+  "value": "2 - 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0ae"
+  },
+  "id": "VV005",
+  "value": "Giá trên 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0b0"
+  },
+  "id": "VV007",
+  "value": "Yonex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0b3"
+  },
+  "id": "VV010",
+  "value": "Forza",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0ba"
+  },
+  "id": "VV017",
+  "value": "Pebble Beach",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0bf"
+  },
+  "id": "VV022",
+  "value": "Hãng khác",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0c1"
+  },
+  "id": "VV024",
+  "value": "Iron Man",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0c2"
+  },
+  "id": "VV025",
+  "value": "Ashaway",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0c5"
+  },
+  "id": "VV028",
+  "value": "FlyPower",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0c7"
+  },
+  "id": "VV030",
+  "value": "Tenway",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0c8"
+  },
+  "id": "VV031",
+  "value": "FYKYMI",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0cb"
+  },
+  "id": "VV034",
+  "value": "Maxta",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0ce"
+  },
+  "id": "VV037",
+  "value": "Kamito",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0d1"
+  },
+  "id": "VV040",
+  "value": "Yuko",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0d2"
+  },
+  "id": "VV041",
+  "value": "Kolt",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0d3"
+  },
+  "id": "VV042",
+  "value": "Vicleo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0d4"
+  },
+  "id": "VV043",
+  "value": "Taro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0d5"
+  },
+  "id": "VV044",
+  "value": "IXE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0d7"
+  },
+  "id": "VV046",
+  "value": "670 mm",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0db"
+  },
+  "id": "VV050",
+  "value": "210 mm",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0dc"
+  },
+  "id": "VV051",
+  "value": "Dưới 82 kg/cm2",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0dd"
+  },
+  "id": "VV052",
+  "value": "82 - 84 kg/cm2",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0de"
+  },
+  "id": "VV053",
+  "value": "84 - 86 kg/cm2",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0b2"
+  },
+  "id": "VV009",
+  "value": "Victor",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0b6"
+  },
+  "id": "VV013",
+  "value": "Kawasaki",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0b8"
+  },
+  "id": "VV015",
+  "value": "Adonex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0bc"
+  },
+  "id": "VV019",
+  "value": "Adidas",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0c3"
+  },
+  "id": "VV026",
+  "value": "Mizuno",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0c6"
+  },
+  "id": "VV029",
+  "value": "Paramount",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0cd"
+  },
+  "id": "VV036",
+  "value": "Pro Kennex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0e2"
+  },
+  "id": "VV057",
+  "value": "3U: 85 - 89 g",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0e3"
+  },
+  "id": "VV058",
+  "value": "4U: 80 - 84 g",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0e5"
+  },
+  "id": "VV060",
+  "value": "F: 70 - 74 g",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0e7"
+  },
+  "id": "VV062",
+  "value": "Nhẹ đầu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0e8"
+  },
+  "id": "VV063",
+  "value": "Cân bằng",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0b4"
+  },
+  "id": "VV011",
+  "value": "Protech",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0b5"
+  },
+  "id": "VV012",
+  "value": "Kumpoo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0b9"
+  },
+  "id": "VV016",
+  "value": "Babolat",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0bd"
+  },
+  "id": "VV020",
+  "value": "VS",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0c0"
+  },
+  "id": "VV023",
+  "value": "Joto",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0c4"
+  },
+  "id": "VV027",
+  "value": "Sunbatta",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0c9"
+  },
+  "id": "VV032",
+  "value": "FUKYMI",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0cf"
+  },
+  "id": "VV038",
+  "value": "The 3rd Game",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0d0"
+  },
+  "id": "VV039",
+  "value": "Felet",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0d8"
+  },
+  "id": "VV047",
+  "value": "675 mm",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0d9"
+  },
+  "id": "VV048",
+  "value": "200 mm",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0da"
+  },
+  "id": "VV049",
+  "value": "205 mm",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0e1"
+  },
+  "id": "VV056",
+  "value": "2U: 90 - 94 g",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0e4"
+  },
+  "id": "VV059",
+  "value": "5U: 75 - 79 g",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0e6"
+  },
+  "id": "VV061",
+  "value": "2F: 65 - 69 g",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a8898c0def2484c4e0ea"
+  },
+  "id": "VV065",
+  "value": "Nặng đầu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0f5"
+  },
+  "id": "VV075",
+  "value": "Đánh đôi",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0f7"
+  },
+  "id": "VV077",
+  "value": "Mới Chơi",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0f8"
+  },
+  "id": "VV078",
+  "value": "Trung Bình",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e108"
+  },
+  "id": "VV094",
+  "value": "ADSORBED PIGMENT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e10a"
+  },
+  "id": "VV096",
+  "value": "AERO GROOVE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e110"
+  },
+  "id": "VV102",
+  "value": "AEROBOX",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e112"
+  },
+  "id": "VV104",
+  "value": "AEROHEX WIDE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e117"
+  },
+  "id": "VV109",
+  "value": "BEYOND COUNTER SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e119"
+  },
+  "id": "VV111",
+  "value": "BIG BEAT SURFACE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e11a"
+  },
+  "id": "VV112",
+  "value": "BIO-INNER-CONE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e11b"
+  },
+  "id": "VV113",
+  "value": "BLACK MICRO CORE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e120"
+  },
+  "id": "VV118",
+  "value": "CARBON FIBRE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0f3"
+  },
+  "id": "VV073",
+  "value": "Phản tạt, phòng thủ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0f4"
+  },
+  "id": "VV074",
+  "value": "Đánh đơn",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0f9"
+  },
+  "id": "VV079",
+  "value": "Khá ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0fb"
+  },
+  "id": "VV081",
+  "value": "3 -IN-1 RACKET FRAME",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0fd"
+  },
+  "id": "VV083",
+  "value": "3D CALIBAR TECHNOLOGY PLATFORM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0fe"
+  },
+  "id": "VV084",
+  "value": "3D POWER MATRIX",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e101"
+  },
+  "id": "VV087",
+  "value": "6.8MM HARD-FLEXIBLE SHAFT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e105"
+  },
+  "id": "VV091",
+  "value": "76 GROMMETS SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e106"
+  },
+  "id": "VV092",
+  "value": "ACC-RIF TECH",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e109"
+  },
+  "id": "VV095",
+  "value": "AERO FRAME",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e10d"
+  },
+  "id": "VV099",
+  "value": "AERO-DIAMOND",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e111"
+  },
+  "id": "VV103",
+  "value": "AERODELTA",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e114"
+  },
+  "id": "VV106",
+  "value": "AEROTEC-BEAM SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e115"
+  },
+  "id": "VV107",
+  "value": "AIR SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e11c"
+  },
+  "id": "VV114",
+  "value": "BOX FRAME",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e11e"
+  },
+  "id": "VV116",
+  "value": "BOX WING FRAME",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e121"
+  },
+  "id": "VV119",
+  "value": "CARBON HANDLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0ec"
+  },
+  "id": "VV066",
+  "value": "Siêu nặng đầu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0ed"
+  },
+  "id": "VV067",
+  "value": "Dép",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0ee"
+  },
+  "id": "VV068",
+  "value": "Trung Bình",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0ef"
+  },
+  "id": "VV069",
+  "value": "Cứng",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0f0"
+  },
+  "id": "VV070",
+  "value": "Siêu cứng",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0f1"
+  },
+  "id": "VV071",
+  "value": "Tấn công",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0f6"
+  },
+  "id": "VV076",
+  "value": "Cả đơn và đôi",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0fa"
+  },
+  "id": "VV080",
+  "value": "24T H.M.G + NANOTEC",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e100"
+  },
+  "id": "VV086",
+  "value": "6.6mm HIGH-MODULUS SLIM SHAFT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e10e"
+  },
+  "id": "VV100",
+  "value": "AERO-HEX",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e10f"
+  },
+  "id": "VV101",
+  "value": "AERO-SWORD",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e113"
+  },
+  "id": "VV105",
+  "value": "AERONAUT TECHNOLOGY PLATFORM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e116"
+  },
+  "id": "VV108",
+  "value": "ANTI TORQUE SPIRAL FRAME",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e118"
+  },
+  "id": "VV110",
+  "value": "BEYOND FORCE SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e11f"
+  },
+  "id": "VV117",
+  "value": "BUILT-IN T-JOINT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e124"
+  },
+  "id": "VV122",
+  "value": "COMBIFRAME",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0f2"
+  },
+  "id": "VV072",
+  "value": "Công thủ toàn diện",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0fc"
+  },
+  "id": "VV082",
+  "value": "3D BREAK-FREE TECHNOLOGY",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e0ff"
+  },
+  "id": "VV085",
+  "value": "40T MITSUBISHI CARBON SHEET",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e102"
+  },
+  "id": "VV088",
+  "value": "6.8MM HIGH-MODULUS SLIM SHAFT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e103"
+  },
+  "id": "VV089",
+  "value": "6.8MM MID-FLEX SHAFT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e104"
+  },
+  "id": "VV090",
+  "value": "6840 TUBE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e107"
+  },
+  "id": "VV093",
+  "value": "ACCELE TECH",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e10b"
+  },
+  "id": "VV097",
+  "value": "AERO HEXAGRAM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e10c"
+  },
+  "id": "VV098",
+  "value": "AERO+BOX FRAME",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e11d"
+  },
+  "id": "VV115",
+  "value": "BOX FRAME TECHNOLOGY",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e122"
+  },
+  "id": "VV120",
+  "value": "CARBON NANO",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9398c0def2484c4e123"
+  },
+  "id": "VV121",
+  "value": "CATAPULT STRUCTURE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e127"
+  },
+  "id": "VV124",
+  "value": "NANO FORTIFY SR",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e12c"
+  },
+  "id": "VV129",
+  "value": "NANO RESIN",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e131"
+  },
+  "id": "VV134",
+  "value": "NANOMESH NEO",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e132"
+  },
+  "id": "VV135",
+  "value": "NANOMETRIC",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e138"
+  },
+  "id": "VV141",
+  "value": "OVAL HEAD",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e13c"
+  },
+  "id": "VV145",
+  "value": "POWER BOX",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e149"
+  },
+  "id": "VV158",
+  "value": "ROTATIONAL GENARATOR SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e14c"
+  },
+  "id": "VV161",
+  "value": "SHAFT RECOVERY SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e14f"
+  },
+  "id": "VV164",
+  "value": "SLIM SHAFT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e150"
+  },
+  "id": "VV165",
+  "value": "SOFT FLEXIBLE SHAFT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e155"
+  },
+  "id": "VV170",
+  "value": "SONIC-REBOUND TECHNOLOGY",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e126"
+  },
+  "id": "VV123",
+  "value": "NANO FORTIFY FR",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e129"
+  },
+  "id": "VV126",
+  "value": "NANO FORTIFY TR+",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e12a"
+  },
+  "id": "VV127",
+  "value": "NANO PEF",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e12b"
+  },
+  "id": "VV128",
+  "value": "NANO REINFORCED",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e12d"
+  },
+  "id": "VV130",
+  "value": "NANO TEC",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e12f"
+  },
+  "id": "VV132",
+  "value": "NANO-ALLOY TECHNOLOGY",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e137"
+  },
+  "id": "VV140",
+  "value": "OFFENSIVE AND DEFENSIVE MODE SWITCH AT WILL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e139"
+  },
+  "id": "VV142",
+  "value": "PBO FORTIFIED",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e13e"
+  },
+  "id": "VV147",
+  "value": "POWER RING",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e142"
+  },
+  "id": "VV151",
+  "value": "REBOUND TRANSITION CONSTRUCTION (R.T.C)",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e144"
+  },
+  "id": "VV153",
+  "value": "REINFORCED STEP FRAME",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e145"
+  },
+  "id": "VV154",
+  "value": "REINFORCING TECHNOLOGY",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e14d"
+  },
+  "id": "VV162",
+  "value": "SHARP WIND",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e152"
+  },
+  "id": "VV167",
+  "value": "SONIC BOOM SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e12e"
+  },
+  "id": "VV131",
+  "value": "NANO TUBE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e134"
+  },
+  "id": "VV137",
+  "value": "NEW BUILT-IN T-JOINT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e135"
+  },
+  "id": "VV138",
+  "value": "NEW GROMMET PATTERN",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e136"
+  },
+  "id": "VV139",
+  "value": "NOCTILUCENT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e13a"
+  },
+  "id": "VV143",
+  "value": "POCKETING BOOSTER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e13f"
+  },
+  "id": "VV148",
+  "value": "PYROFIL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e147"
+  },
+  "id": "VV156",
+  "value": "REVOLUTIONARY TITANIUM T-JOINT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e148"
+  },
+  "id": "VV157",
+  "value": "REXIS SHAFT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e14b"
+  },
+  "id": "VV160",
+  "value": "SEVEN SIX -76",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e14e"
+  },
+  "id": "VV163",
+  "value": "SLIM BOX FRAME",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e151"
+  },
+  "id": "VV166",
+  "value": "SOLID FEEL CORE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e153"
+  },
+  "id": "VV168",
+  "value": "SONIC FLARE SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e154"
+  },
+  "id": "VV169",
+  "value": "SONIC METAL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e128"
+  },
+  "id": "VV125",
+  "value": "NANO FORTIFY TR",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e130"
+  },
+  "id": "VV133",
+  "value": "NANOCELL NEO",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e133"
+  },
+  "id": "VV136",
+  "value": "NANOMETRIC DR",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e13b"
+  },
+  "id": "VV144",
+  "value": "POWER ASSIST BUMPER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e13d"
+  },
+  "id": "VV146",
+  "value": "POWER GROMMET SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e140"
+  },
+  "id": "VV149",
+  "value": "RAPID RESPONSE SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e141"
+  },
+  "id": "VV150",
+  "value": "REBOUND SHIELD",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e143"
+  },
+  "id": "VV152",
+  "value": "REINFORCED BRIDGE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e146"
+  },
+  "id": "VV155",
+  "value": "RESILE SHAFT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751a9bd8c0def2484c4e14a"
+  },
+  "id": "VV159",
+  "value": "SERVO FILTER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e159"
+  },
+  "id": "VG003",
+  "value": "1 - 2 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e15a"
+  },
+  "id": "VG004",
+  "value": "2 - 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e15b"
+  },
+  "id": "VG005",
+  "value": "Giá trên 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e15c"
+  },
+  "id": "VG006",
+  "value": "VNB",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e160"
+  },
+  "id": "VG010",
+  "value": "Kumpoo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e162"
+  },
+  "id": "VG012",
+  "value": "Apacs",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e167"
+  },
+  "id": "VG017",
+  "value": "Adidas",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e16d"
+  },
+  "id": "VG023",
+  "value": "Sunbatta",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e17c"
+  },
+  "id": "VG038",
+  "value": "36",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e17e"
+  },
+  "id": "VG040",
+  "value": "38",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e183"
+  },
+  "id": "VG045",
+  "value": "41",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e186"
+  },
+  "id": "VG048",
+  "value": "42.5",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e188"
+  },
+  "id": "VG050",
+  "value": "43.5",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e158"
+  },
+  "id": "VG002",
+  "value": "500.000đ - 1 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e15e"
+  },
+  "id": "VG008",
+  "value": "Lining",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e164"
+  },
+  "id": "VG014",
+  "value": "Babolat",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e171"
+  },
+  "id": "VG027",
+  "value": "Kamito",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e175"
+  },
+  "id": "VG031",
+  "value": "Jogarbola",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e17d"
+  },
+  "id": "VG039",
+  "value": "37",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e17f"
+  },
+  "id": "VG041",
+  "value": "39",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e180"
+  },
+  "id": "VG042",
+  "value": "39.5",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e185"
+  },
+  "id": "VG047",
+  "value": "42",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e15d"
+  },
+  "id": "VG007",
+  "value": "Yonex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e161"
+  },
+  "id": "VG011",
+  "value": "Kawasaki",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e166"
+  },
+  "id": "VG016",
+  "value": "Proace",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e168"
+  },
+  "id": "VG018",
+  "value": "Nike",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e169"
+  },
+  "id": "VG019",
+  "value": "VS",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e16b"
+  },
+  "id": "VG021",
+  "value": "Aomei",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e16c"
+  },
+  "id": "VG022",
+  "value": "Mizuno",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e16f"
+  },
+  "id": "VG025",
+  "value": "Fleet",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e172"
+  },
+  "id": "VG028",
+  "value": "Felet",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e173"
+  },
+  "id": "VG029",
+  "value": "Promax",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e178"
+  },
+  "id": "VG034",
+  "value": "Nam",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e179"
+  },
+  "id": "VG035",
+  "value": "Nữ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e17a"
+  },
+  "id": "VG036",
+  "value": "Cả Nam lẫn Nữ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e17b"
+  },
+  "id": "VG037",
+  "value": "Trẻ em",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e184"
+  },
+  "id": "VG046",
+  "value": "41.5",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e187"
+  },
+  "id": "VG049",
+  "value": "43",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e157"
+  },
+  "id": "VG001",
+  "value": "Giá dưới 500.000đ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e15f"
+  },
+  "id": "VG009",
+  "value": "Victor",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e163"
+  },
+  "id": "VG013",
+  "value": "Adonex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e165"
+  },
+  "id": "VG015",
+  "value": "Kason",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e16a"
+  },
+  "id": "VG020",
+  "value": "Hãng khác",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e16e"
+  },
+  "id": "VG024",
+  "value": "FlyPower",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e170"
+  },
+  "id": "VG026",
+  "value": "Lotus",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e174"
+  },
+  "id": "VG030",
+  "value": "Lefus",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e176"
+  },
+  "id": "VG032",
+  "value": "Asics",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e177"
+  },
+  "id": "VG033",
+  "value": "Taro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e181"
+  },
+  "id": "VG043",
+  "value": "40",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751aa7a8c0def2484c4e182"
+  },
+  "id": "VG044",
+  "value": "40.5",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e18b"
+  },
+  "id": "VG052",
+  "value": "45",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e18d"
+  },
+  "id": "VG054",
+  "value": "46",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e193"
+  },
+  "id": "VG060",
+  "value": "Slim - Bàn chân thon",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e194"
+  },
+  "id": "VG061",
+  "value": "Unisex - Bàn chân thường",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e19b"
+  },
+  "id": "VG068",
+  "value": "Cao cấp",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e19c"
+  },
+  "id": "VG069",
+  "value": "3D POWER GRAPHITE DRIVE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e19e"
+  },
+  "id": "VG071",
+  "value": "3D PROTECTION",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1a7"
+  },
+  "id": "VG080",
+  "value": "BEYOND POWER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1a9"
+  },
+  "id": "VG082",
+  "value": "BOA FIT SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1aa"
+  },
+  "id": "VG083",
+  "value": "BREATHABLE FARBIC",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1ad"
+  },
+  "id": "VG086",
+  "value": "BREATVTHABLE FARBIC",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1ae"
+  },
+  "id": "VG087",
+  "value": "CARBON POWER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1b3"
+  },
+  "id": "VG092",
+  "value": "CUSHION BOARO TẦNG 2",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1b9"
+  },
+  "id": "VG098",
+  "value": "DOUBLE TPU ANTI-TWIST SYSTEM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e18a"
+  },
+  "id": "VG051",
+  "value": "44",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e18c"
+  },
+  "id": "VG053",
+  "value": "45.5",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e18f"
+  },
+  "id": "VG056",
+  "value": "Toàn diện",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e190"
+  },
+  "id": "VG057",
+  "value": "Siêu nhẹ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1a1"
+  },
+  "id": "VG074",
+  "value": "AIR MESH",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1a4"
+  },
+  "id": "VG077",
+  "value": "ANTI-TWIST DESIGN",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1a6"
+  },
+  "id": "VG079",
+  "value": "ASYS",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1ab"
+  },
+  "id": "VG084",
+  "value": "BREATHABLE MESH LAYER DESIGN",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1b6"
+  },
+  "id": "VG095",
+  "value": "DOUBLE FOOT STABILIZER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1b7"
+  },
+  "id": "VG096",
+  "value": "DOUBLE RACHEL MESH",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1b8"
+  },
+  "id": "VG097",
+  "value": "DOUBLE RUSSEL MESH",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e191"
+  },
+  "id": "VG058",
+  "value": "Ổn định",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e192"
+  },
+  "id": "VG059",
+  "value": "Êm ái",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e196"
+  },
+  "id": "VG063",
+  "value": "Ngoài trời - Sân bê tông",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e198"
+  },
+  "id": "VG065",
+  "value": "Trong nhà & Ngoài trời",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e19d"
+  },
+  "id": "VG070",
+  "value": "3D POWER GRAPHITE SHEET",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e19f"
+  },
+  "id": "VG072",
+  "value": "AEROFOAM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1a0"
+  },
+  "id": "VG073",
+  "value": "AIR HOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1a2"
+  },
+  "id": "VG075",
+  "value": "ANTI TORSION",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1ac"
+  },
+  "id": "VG085",
+  "value": "BREATHING",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1b0"
+  },
+  "id": "VG089",
+  "value": "COOL AIR",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1b5"
+  },
+  "id": "VG094",
+  "value": "D-FLEX GROOVE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1bb"
+  },
+  "id": "VG100",
+  "value": "DURABLE SKIN",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e18e"
+  },
+  "id": "VG055",
+  "value": "47",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e195"
+  },
+  "id": "VG062",
+  "value": "Wide - Bàn chân bè",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e197"
+  },
+  "id": "VG064",
+  "value": "Trong nhà - Sân thảm",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e199"
+  },
+  "id": "VG066",
+  "value": "Tầm thấp",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e19a"
+  },
+  "id": "VG067",
+  "value": "Trung cấp",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1a3"
+  },
+  "id": "VG076",
+  "value": "ANTI-SLIP",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1a5"
+  },
+  "id": "VG078",
+  "value": "AP+",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1a8"
+  },
+  "id": "VG081",
+  "value": "BIONIC OUTSOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1af"
+  },
+  "id": "VG088",
+  "value": "CARBON-FIBER PLATE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1b1"
+  },
+  "id": "VG090",
+  "value": "COOL SHELL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1b2"
+  },
+  "id": "VG091",
+  "value": "CUSHION AND BREATHABILITY",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1b4"
+  },
+  "id": "VG093",
+  "value": "CUSHION TECH INSOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ab9b8c0def2484c4e1ba"
+  },
+  "id": "VG099",
+  "value": "DROP- IN MIDSOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1c8"
+  },
+  "id": "VG112",
+  "value": "EXTRAHEXA",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1c9"
+  },
+  "id": "VG113",
+  "value": "EXTREME PROTECTION",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1cc"
+  },
+  "id": "VG116",
+  "value": "FOAM COMFORT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1cd"
+  },
+  "id": "VG117",
+  "value": "FOAM WAVE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1cf"
+  },
+  "id": "VG119",
+  "value": "HEXAGRIP SOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1d2"
+  },
+  "id": "VG122",
+  "value": "HYPEREVA",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1bd"
+  },
+  "id": "VG101",
+  "value": "DURABLE SKIN LIGHT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1bf"
+  },
+  "id": "VG103",
+  "value": "Dyna Eyelet Wrap",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1c3"
+  },
+  "id": "VG107",
+  "value": "EMBRACING TPU",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1ca"
+  },
+  "id": "VG114",
+  "value": "FEATHER BOUNCE FOAM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1ce"
+  },
+  "id": "VG118",
+  "value": "GRIP RCT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1d0"
+  },
+  "id": "VG120",
+  "value": "HIGH PEEL PU",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1d1"
+  },
+  "id": "VG121",
+  "value": "HYBRID UPPER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1c1"
+  },
+  "id": "VG105",
+  "value": "DYNANOTION FIT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1c2"
+  },
+  "id": "VG106",
+  "value": "E-TPU",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1c6"
+  },
+  "id": "VG110",
+  "value": "EVA",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1cb"
+  },
+  "id": "VG115",
+  "value": "FLEX BACK ACTION",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1be"
+  },
+  "id": "VG102",
+  "value": "DURABLE TOE AND HEEL COUNTER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1c0"
+  },
+  "id": "VG104",
+  "value": "DYNAMIC CUSHION",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1c4"
+  },
+  "id": "VG108",
+  "value": "ENERGY MAX3.0",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1c5"
+  },
+  "id": "VG109",
+  "value": "ETHYLENE VINYL ACETATE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1c7"
+  },
+  "id": "VG111",
+  "value": "EXTRA CUSHIONING",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1d3"
+  },
+  "id": "VG123",
+  "value": "KA – COMFORT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abaa8c0def2484c4e1d4"
+  },
+  "id": "VG124",
+  "value": "KA – HEXABRAKE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1db"
+  },
+  "id": "VG130",
+  "value": "LATERAL SHELL AND STABILITY REINFORCEMENT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1e2"
+  },
+  "id": "VG137",
+  "value": "MICCROFIBER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1e6"
+  },
+  "id": "VG141",
+  "value": "MONO",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1e9"
+  },
+  "id": "VG144",
+  "value": "NATURAL RUBBER OUTSOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1ec"
+  },
+  "id": "VG147",
+  "value": "NON-MARKING",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1f0"
+  },
+  "id": "VG151",
+  "value": "POWER CUSHION",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1f1"
+  },
+  "id": "VG152",
+  "value": "POWER CUSHION+",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1fd"
+  },
+  "id": "VG164",
+  "value": "SNAP BACK ACTION",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1ff"
+  },
+  "id": "VG166",
+  "value": "SR TOUCH",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e203"
+  },
+  "id": "VG170",
+  "value": "TOE ASSIST SHAPE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e205"
+  },
+  "id": "VG172",
+  "value": "TRI-ARCH",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e207"
+  },
+  "id": "VG174",
+  "value": "TRU CUSHION SOCKLINER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e20a"
+  },
+  "id": "VG177",
+  "value": "TUFF TIP",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e20c"
+  },
+  "id": "VG179",
+  "value": "U4ICX STROBEL BOARD",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e20f"
+  },
+  "id": "VG182",
+  "value": "V-TOUGH",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e211"
+  },
+  "id": "VG184",
+  "value": "WEAR RESISTANT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e213"
+  },
+  "id": "VG186",
+  "value": "Z GRIP",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1d7"
+  },
+  "id": "VG126",
+  "value": "KA-FRESH AIR PLUS",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1d9"
+  },
+  "id": "VG128",
+  "value": "KA-SUPER RUBBER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1dd"
+  },
+  "id": "VG132",
+  "value": "LI-NING CLOUD",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1de"
+  },
+  "id": "VG133",
+  "value": "LIGHT FOAM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1e0"
+  },
+  "id": "VG135",
+  "value": "LS-S",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1e5"
+  },
+  "id": "VG140",
+  "value": "MIZUNO WAVE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1ea"
+  },
+  "id": "VG145",
+  "value": "NEO DUPLEX",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1ed"
+  },
+  "id": "VG148",
+  "value": "OUTDOOR SOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1f2"
+  },
+  "id": "VG153",
+  "value": "PoWnCe",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1fc"
+  },
+  "id": "VG163",
+  "value": "SHOCK ABSORPTION",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e200"
+  },
+  "id": "VG167",
+  "value": "SYNCHRO FIT INSOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e208"
+  },
+  "id": "VG175",
+  "value": "TRU SHAPE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e20d"
+  },
+  "id": "VG180",
+  "value": "UPPER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e210"
+  },
+  "id": "VG183",
+  "value": "VSR ANTI-SLIP RUBBER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1da"
+  },
+  "id": "VG129",
+  "value": "KPU WRAPPING",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1df"
+  },
+  "id": "VG134",
+  "value": "LIGHT RESILIENT EVA",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1e1"
+  },
+  "id": "VG136",
+  "value": "MEMORY FORM INSOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1e8"
+  },
+  "id": "VG143",
+  "value": "NANO CUSHION GEL & FORM",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1f3"
+  },
+  "id": "VG154",
+  "value": "PROBAR LOC",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1f4"
+  },
+  "id": "VG155",
+  "value": "PROTECTS THE ARCH OF THE FOOT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1f6"
+  },
+  "id": "VG157",
+  "value": "RADIATION",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1f7"
+  },
+  "id": "VG158",
+  "value": "REMOVABLE INSOCK",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1f9"
+  },
+  "id": "VG160",
+  "value": "SEAMLESS UPPER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1fe"
+  },
+  "id": "VG165",
+  "value": "SOCKLINER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e201"
+  },
+  "id": "VG168",
+  "value": "TẤM DỆT CARBON",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e204"
+  },
+  "id": "VG171",
+  "value": "TPU STABILIZER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e206"
+  },
+  "id": "VG173",
+  "value": "TRU CUSHION INSOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e20b"
+  },
+  "id": "VG178",
+  "value": "U-SHAPE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e212"
+  },
+  "id": "VG185",
+  "value": "XG RUBBER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1d6"
+  },
+  "id": "VG125",
+  "value": "KA – SOFT",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1d8"
+  },
+  "id": "VG127",
+  "value": "KA-PUPRO",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1dc"
+  },
+  "id": "VG131",
+  "value": "LI-NING BOUNSE+",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1e3"
+  },
+  "id": "VG138",
+  "value": "MIZUNO ENERGY",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1e4"
+  },
+  "id": "VG139",
+  "value": "MIZUNO INTERCOOL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1e7"
+  },
+  "id": "VG142",
+  "value": "msLITE X",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1eb"
+  },
+  "id": "VG146",
+  "value": "NEW AIR MESH UPPER",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1ee"
+  },
+  "id": "VG149",
+  "value": "PEBAX",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1ef"
+  },
+  "id": "VG150",
+  "value": "PHYLON MIDSOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1f5"
+  },
+  "id": "VG156",
+  "value": "RADIAL BLADE SOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1f8"
+  },
+  "id": "VG159",
+  "value": "ROUND SOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1fa"
+  },
+  "id": "VG161",
+  "value": "SEMI ONE-PIECE SOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e1fb"
+  },
+  "id": "VG162",
+  "value": "SHIELD HEEL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e202"
+  },
+  "id": "VG169",
+  "value": "TẤM SỢI CARBON",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e209"
+  },
+  "id": "VG176",
+  "value": "TUFF RB",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751abf38c0def2484c4e20e"
+  },
+  "id": "VG181",
+  "value": "V-DURABLE +",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e217"
+  },
+  "id": "VA003",
+  "value": "1 - 2 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e218"
+  },
+  "id": "VA004",
+  "value": "2 - 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e21d"
+  },
+  "id": "VA009",
+  "value": "Victor",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e228"
+  },
+  "id": "VA020",
+  "value": "FlyPower",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e22a"
+  },
+  "id": "VA022",
+  "value": "Pro Kennex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e22e"
+  },
+  "id": "VA026",
+  "value": "Felet",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e231"
+  },
+  "id": "VA029",
+  "value": "Vina Authentic",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e235"
+  },
+  "id": "VA033",
+  "value": "S",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e237"
+  },
+  "id": "VA035",
+  "value": "L",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e215"
+  },
+  "id": "VA001",
+  "value": "Giá dưới 500.000đ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e216"
+  },
+  "id": "VA002",
+  "value": "500.000đ - 1 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e21c"
+  },
+  "id": "VA008",
+  "value": "Lining",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e224"
+  },
+  "id": "VA016",
+  "value": "DonexPro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e229"
+  },
+  "id": "VA021",
+  "value": "SFD",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e22f"
+  },
+  "id": "VA027",
+  "value": "Vicleo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e238"
+  },
+  "id": "VA036",
+  "value": "XL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e239"
+  },
+  "id": "VA037",
+  "value": "2XL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e23a"
+  },
+  "id": "VA038",
+  "value": "3XL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e21a"
+  },
+  "id": "VA006",
+  "value": "VNB",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e21e"
+  },
+  "id": "VA010",
+  "value": "Kumpoo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e21f"
+  },
+  "id": "VA011",
+  "value": "Kawasaki",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e220"
+  },
+  "id": "VA012",
+  "value": "Apacs",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e221"
+  },
+  "id": "VA013",
+  "value": "Babolat",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e223"
+  },
+  "id": "VA015",
+  "value": "VS",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e227"
+  },
+  "id": "VA019",
+  "value": "Alien Armour",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e22c"
+  },
+  "id": "VA024",
+  "value": "Victec",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e230"
+  },
+  "id": "VA028",
+  "value": "Taro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e232"
+  },
+  "id": "VA030",
+  "value": "Zata",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e233"
+  },
+  "id": "VA031",
+  "value": "Nam",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e236"
+  },
+  "id": "VA034",
+  "value": "M",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e219"
+  },
+  "id": "VA005",
+  "value": "Giá trên 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e21b"
+  },
+  "id": "VA007",
+  "value": "Yonex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e222"
+  },
+  "id": "VA014",
+  "value": "Pebble Beach",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e225"
+  },
+  "id": "VA017",
+  "value": "Hãng khác",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e226"
+  },
+  "id": "VA018",
+  "value": "Mizuno",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e22b"
+  },
+  "id": "VA023",
+  "value": "Bubadu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e22d"
+  },
+  "id": "VA025",
+  "value": "Kamito",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac2c8c0def2484c4e234"
+  },
+  "id": "VA032",
+  "value": "Nữ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e23c"
+  },
+  "id": "VVV001",
+  "value": "Giá dưới 500.000đ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e242"
+  },
+  "id": "VVV007",
+  "value": "Yonex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e24a"
+  },
+  "id": "VVV015",
+  "value": "Taro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e24b"
+  },
+  "id": "VVV016",
+  "value": "S",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e24c"
+  },
+  "id": "VVV017",
+  "value": "M",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e250"
+  },
+  "id": "VVV021",
+  "value": "3XL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e243"
+  },
+  "id": "VVV008",
+  "value": "Lining",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e246"
+  },
+  "id": "VVV011",
+  "value": "DonexPro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e24e"
+  },
+  "id": "VVV019",
+  "value": "XL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e24f"
+  },
+  "id": "VVV020",
+  "value": "2XL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e23d"
+  },
+  "id": "VVV002",
+  "value": "500.000đ - 1 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e240"
+  },
+  "id": "VVV005",
+  "value": "Giá trên 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e247"
+  },
+  "id": "VVV012",
+  "value": "Hãng khác",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e249"
+  },
+  "id": "VVV014",
+  "value": "Kamito",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e24d"
+  },
+  "id": "VVV018",
+  "value": "L",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e23e"
+  },
+  "id": "VVV003",
+  "value": "1 - 2 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e23f"
+  },
+  "id": "VVV004",
+  "value": "2 - 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e241"
+  },
+  "id": "VVV006",
+  "value": "VNB",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e244"
+  },
+  "id": "VVV009",
+  "value": "Victor",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e245"
+  },
+  "id": "VVV010",
+  "value": "Kumpoo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac4f8c0def2484c4e248"
+  },
+  "id": "VVV013",
+  "value": "Victec",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e256"
+  },
+  "id": "VQ005",
+  "value": "Giá trên 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e257"
+  },
+  "id": "VQ006",
+  "value": "VNB",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e25c"
+  },
+  "id": "VQ011",
+  "value": "Kawasaki",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e261"
+  },
+  "id": "VQ016",
+  "value": "Nike",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e26a"
+  },
+  "id": "VQ025",
+  "value": "Bubadu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e26c"
+  },
+  "id": "VQ027",
+  "value": "Kamito",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e26e"
+  },
+  "id": "VQ029",
+  "value": "Taro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e26f"
+  },
+  "id": "VQ030",
+  "value": "Vina Authentic",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e274"
+  },
+  "id": "VQ035",
+  "value": "L",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e252"
+  },
+  "id": "VQ001",
+  "value": "Giá dưới 500.000đ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e259"
+  },
+  "id": "VQ008",
+  "value": "Lining",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e25d"
+  },
+  "id": "VQ012",
+  "value": "Apacs",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e263"
+  },
+  "id": "VQ018",
+  "value": "DonexPro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e264"
+  },
+  "id": "VQ019",
+  "value": "Hãng khác",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e265"
+  },
+  "id": "VQ020",
+  "value": "Mizuno",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e26b"
+  },
+  "id": "VQ026",
+  "value": "Victec",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e271"
+  },
+  "id": "VQ032",
+  "value": "Nữ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e275"
+  },
+  "id": "VQ036",
+  "value": "XL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e253"
+  },
+  "id": "VQ002",
+  "value": "500.000đ - 1 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e254"
+  },
+  "id": "VQ003",
+  "value": "1 - 2 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e255"
+  },
+  "id": "VQ004",
+  "value": "2 - 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e258"
+  },
+  "id": "VQ007",
+  "value": "Yonex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e25a"
+  },
+  "id": "VQ009",
+  "value": "Victor",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e25b"
+  },
+  "id": "VQ010",
+  "value": "Kumpoo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e260"
+  },
+  "id": "VQ015",
+  "value": "Revilo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e267"
+  },
+  "id": "VQ022",
+  "value": "FlyPower",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e269"
+  },
+  "id": "VQ024",
+  "value": "Pro Kennex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e273"
+  },
+  "id": "VQ034",
+  "value": "M",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e276"
+  },
+  "id": "VQ037",
+  "value": "2XL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e25e"
+  },
+  "id": "VQ013",
+  "value": "Pebble Beach",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e25f"
+  },
+  "id": "VQ014",
+  "value": "Adidas",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e262"
+  },
+  "id": "VQ017",
+  "value": "VS",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e266"
+  },
+  "id": "VQ021",
+  "value": "Alien Armour",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e268"
+  },
+  "id": "VQ023",
+  "value": "SFD",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e26d"
+  },
+  "id": "VQ028",
+  "value": "Felet",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e270"
+  },
+  "id": "VQ031",
+  "value": "Nam",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e272"
+  },
+  "id": "VQ033",
+  "value": "S",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ac848c0def2484c4e277"
+  },
+  "id": "VQ038",
+  "value": "3XL",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e279"
+  },
+  "id": "VT001",
+  "value": "Giá dưới 500.000đ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e27a"
+  },
+  "id": "VT002",
+  "value": "500.000đ - 1 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e27b"
+  },
+  "id": "VT003",
+  "value": "1 - 2 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e27d"
+  },
+  "id": "VT005",
+  "value": "Giá trên 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e27f"
+  },
+  "id": "VT007",
+  "value": "Yonex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e280"
+  },
+  "id": "VT008",
+  "value": "Lining",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e284"
+  },
+  "id": "VT012",
+  "value": "Kumpoo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e28d"
+  },
+  "id": "VT021",
+  "value": "DonexPro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e293"
+  },
+  "id": "VT027",
+  "value": "FUKYMI",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e299"
+  },
+  "id": "VT033",
+  "value": "Taro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e29b"
+  },
+  "id": "VT035",
+  "value": "Nữ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e29d"
+  },
+  "id": "VT037",
+  "value": "Có Ngăn Đựng Giày",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e29f"
+  },
+  "id": "VT039",
+  "value": "Đeo Ngang Vai",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e2a2"
+  },
+  "id": "VT042",
+  "value": "2 Ngăn",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e2a3"
+  },
+  "id": "VT043",
+  "value": "3 Ngăn",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e27e"
+  },
+  "id": "VT006",
+  "value": "VNB",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e281"
+  },
+  "id": "VT009",
+  "value": "Victor",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e287"
+  },
+  "id": "VT015",
+  "value": "Adonex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e28a"
+  },
+  "id": "VT018",
+  "value": "Proace",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e291"
+  },
+  "id": "VT025",
+  "value": "Sunbatta",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e295"
+  },
+  "id": "VT029",
+  "value": "Victec",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e298"
+  },
+  "id": "VT032",
+  "value": "Ywyat",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e29e"
+  },
+  "id": "VT038",
+  "value": "Có Ngăn Lót Bạc",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e2a0"
+  },
+  "id": "VT040",
+  "value": "Đeo Trên Lưng",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e2a1"
+  },
+  "id": "VT041",
+  "value": "1 Ngăn",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e282"
+  },
+  "id": "VT010",
+  "value": "Forza",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e286"
+  },
+  "id": "VT014",
+  "value": "Apacs",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e288"
+  },
+  "id": "VT016",
+  "value": "Babolat",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e289"
+  },
+  "id": "VT017",
+  "value": "Kason",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e28c"
+  },
+  "id": "VT020",
+  "value": "VS",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e28e"
+  },
+  "id": "VT022",
+  "value": "Hải Yến",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e290"
+  },
+  "id": "VT024",
+  "value": "Mizuno",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e292"
+  },
+  "id": "VT026",
+  "value": "FlyPower",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e294"
+  },
+  "id": "VT028",
+  "value": "Lotus",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e296"
+  },
+  "id": "VT030",
+  "value": "Kamito",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e29a"
+  },
+  "id": "VT034",
+  "value": "Nam",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e27c"
+  },
+  "id": "VT004",
+  "value": "2 - 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e283"
+  },
+  "id": "VT011",
+  "value": "Protech",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e285"
+  },
+  "id": "VT013",
+  "value": "Kawasaki",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e28b"
+  },
+  "id": "VT019",
+  "value": "Adidas",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e28f"
+  },
+  "id": "VT023",
+  "value": "Power ball",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e297"
+  },
+  "id": "VT031",
+  "value": "Felet",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751acb98c0def2484c4e29c"
+  },
+  "id": "VT036",
+  "value": "Unisex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2a9"
+  },
+  "id": "VB005",
+  "value": "Giá trên 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2af"
+  },
+  "id": "VB011",
+  "value": "Protech",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2b6"
+  },
+  "id": "VB018",
+  "value": "Nike",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2b9"
+  },
+  "id": "VB021",
+  "value": "Hải Yến",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2c0"
+  },
+  "id": "VB028",
+  "value": "APAVI",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2a8"
+  },
+  "id": "VB004",
+  "value": "2 - 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2ab"
+  },
+  "id": "VB007",
+  "value": "Yonex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2b0"
+  },
+  "id": "VB012",
+  "value": "Kumpoo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2b2"
+  },
+  "id": "VB014",
+  "value": "Apacs",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2bc"
+  },
+  "id": "VB024",
+  "value": "Lotus",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2bd"
+  },
+  "id": "VB025",
+  "value": "Kamito",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2be"
+  },
+  "id": "VB026",
+  "value": "Felet",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2c3"
+  },
+  "id": "VB031",
+  "value": "Nữ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2c4"
+  },
+  "id": "VB032",
+  "value": "Unisex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2c5"
+  },
+  "id": "VB033",
+  "value": "Có Ngăn Đựng Giày",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2c6"
+  },
+  "id": "VB034",
+  "value": "Có Ngăn Đựng Nước",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2c8"
+  },
+  "id": "VB036",
+  "value": "Balo Thường",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2c9"
+  },
+  "id": "VB037",
+  "value": "Balo Cổ trụ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2a5"
+  },
+  "id": "VB001",
+  "value": "Giá dưới 500.000đ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2aa"
+  },
+  "id": "VB006",
+  "value": "VNB",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2ae"
+  },
+  "id": "VB010",
+  "value": "Forza",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2b1"
+  },
+  "id": "VB013",
+  "value": "Kawasaki",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2b3"
+  },
+  "id": "VB015",
+  "value": "Adonex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2b7"
+  },
+  "id": "VB019",
+  "value": "DonexPro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2b8"
+  },
+  "id": "VB020",
+  "value": "Hãng khác",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2ba"
+  },
+  "id": "VB022",
+  "value": "Mizuno",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2c1"
+  },
+  "id": "VB029",
+  "value": "Taro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2c2"
+  },
+  "id": "VB030",
+  "value": "Nam",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2c7"
+  },
+  "id": "VB035",
+  "value": "Balo Xách",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2a6"
+  },
+  "id": "VB002",
+  "value": "500.000đ - 1 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2a7"
+  },
+  "id": "VB003",
+  "value": "1 - 2 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2ac"
+  },
+  "id": "VB008",
+  "value": "Lining",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2ad"
+  },
+  "id": "VB009",
+  "value": "Victor",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2b4"
+  },
+  "id": "VB016",
+  "value": "Kason",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2b5"
+  },
+  "id": "VB017",
+  "value": "Adidas",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2bb"
+  },
+  "id": "VB023",
+  "value": "Sunbatta",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2bf"
+  },
+  "id": "VB027",
+  "value": "Ywyat",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ace28c0def2484c4e2ca"
+  },
+  "id": "VB038",
+  "value": "Balo Bao trọn vợt",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2d0"
+  },
+  "id": "VP005",
+  "value": "Giá trên 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2d1"
+  },
+  "id": "VP006",
+  "value": "VNB",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2d3"
+  },
+  "id": "VP008",
+  "value": "Lining",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2d4"
+  },
+  "id": "VP009",
+  "value": "Victor",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2e6"
+  },
+  "id": "VP027",
+  "value": "Mizuno",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2e8"
+  },
+  "id": "VP029",
+  "value": "Sunbatta",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2ea"
+  },
+  "id": "VP031",
+  "value": "Baboli",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2ec"
+  },
+  "id": "VP033",
+  "value": "XIAOLE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2f6"
+  },
+  "id": "VP043",
+  "value": "Felet",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2f9"
+  },
+  "id": "VP046",
+  "value": "APAVI",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2ff"
+  },
+  "id": "VP052",
+  "value": "Lê Quang",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e300"
+  },
+  "id": "VP053",
+  "value": "Yasu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e303"
+  },
+  "id": "VP056",
+  "value": "Ligpro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e305"
+  },
+  "id": "VP058",
+  "value": "Gosen",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2d2"
+  },
+  "id": "VP007",
+  "value": "Yonex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2d6"
+  },
+  "id": "VP011",
+  "value": "Protech",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2da"
+  },
+  "id": "VP015",
+  "value": "Babolat",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2dd"
+  },
+  "id": "VP018",
+  "value": "Revilo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2df"
+  },
+  "id": "VP020",
+  "value": "Hãng khác",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2e0"
+  },
+  "id": "VP021",
+  "value": "Hải Yến",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2ee"
+  },
+  "id": "VP035",
+  "value": "Pro Kennex",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2ef"
+  },
+  "id": "VP036",
+  "value": "Tiền Phong",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2f7"
+  },
+  "id": "VP044",
+  "value": "AOLIKES",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2f8"
+  },
+  "id": "VP045",
+  "value": "Newstar",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2fb"
+  },
+  "id": "VP048",
+  "value": "T&T",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2fc"
+  },
+  "id": "VP049",
+  "value": "Hải Anh",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2fd"
+  },
+  "id": "VP050",
+  "value": "Vicleo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2fe"
+  },
+  "id": "VP051",
+  "value": "Starbalm",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e301"
+  },
+  "id": "VP054",
+  "value": "Taro",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e306"
+  },
+  "id": "VP059",
+  "value": "CRBN",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2cc"
+  },
+  "id": "VP001",
+  "value": "Giá dưới 500.000đ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2ce"
+  },
+  "id": "VP003",
+  "value": "1 - 2 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2d5"
+  },
+  "id": "VP010",
+  "value": "Forza",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2d7"
+  },
+  "id": "VP012",
+  "value": "Kumpoo",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2db"
+  },
+  "id": "VP016",
+  "value": "Proace",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2de"
+  },
+  "id": "VP019",
+  "value": "VS",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2e3"
+  },
+  "id": "VP024",
+  "value": "Kuangson",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2e4"
+  },
+  "id": "VP025",
+  "value": "Joto",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2e5"
+  },
+  "id": "VP026",
+  "value": "Iron Man",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2e9"
+  },
+  "id": "VP030",
+  "value": "PJ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2eb"
+  },
+  "id": "VP032",
+  "value": "Sao Mai",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2f1"
+  },
+  "id": "VP038",
+  "value": "Bubadu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2f3"
+  },
+  "id": "VP040",
+  "value": "Kamito",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2f5"
+  },
+  "id": "VP042",
+  "value": "The 3rd Game",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2fa"
+  },
+  "id": "VP047",
+  "value": "PRINCE",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e304"
+  },
+  "id": "VP057",
+  "value": "Hùng Phát",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2cd"
+  },
+  "id": "VP002",
+  "value": "500.000đ - 1 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2cf"
+  },
+  "id": "VP004",
+  "value": "2 - 3 triệu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2d8"
+  },
+  "id": "VP013",
+  "value": "Kawasaki",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2d9"
+  },
+  "id": "VP014",
+  "value": "Apacs",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2dc"
+  },
+  "id": "VP017",
+  "value": "Adidas",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2e1"
+  },
+  "id": "VP022",
+  "value": "Power ball",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2e2"
+  },
+  "id": "VP023",
+  "value": "Aomei",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2e7"
+  },
+  "id": "VP028",
+  "value": "Alien Armour",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2ed"
+  },
+  "id": "VP034",
+  "value": "LP",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2f0"
+  },
+  "id": "VP037",
+  "value": "Tiến Bộ",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2f2"
+  },
+  "id": "VP039",
+  "value": "Victec",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e2f4"
+  },
+  "id": "VP041",
+  "value": "Kizuna",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6751ad1d8c0def2484c4e302"
+  },
+  "id": "VP055",
+  "value": "Xsmash",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6753d3aa57523981f583f405"
+  },
+  "id": "VVVVVV",
+  "value": "No",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "675827c34cdafbf30e28153a"
+  },
+  "id": "ltslby",
+  "value": "fdg",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675827c34cdafbf30e28153e"
+  },
+  "id": "9uygb9",
+  "value": "sdfsdfsdf",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675828214cdafbf30e2817db"
+  },
+  "id": "sfrujg",
+  "value": "dsfdfd",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67582a059caf4eadae95d7c2"
+  },
+  "id": "noms7c",
+  "value": "sdfsdfdfgf",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67582a269caf4eadae95d874"
+  },
+  "id": "qv1nmn",
+  "value": "sdfsdgg",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67582df8e21eb6726cf2dffb"
+  },
+  "id": "r9pua8",
+  "value": "dfgfdgdfg",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67582e2fe21eb6726cf2e0ac"
+  },
+  "id": "x1pnap",
+  "value": "dfhghfgh",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67583cd0c45b21cea084f707"
+  },
+  "id": "jiw5b8",
+  "value": "sdfsdgfdg",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67583ce8f2d6aaed68ae7947"
+  },
+  "id": "0utr8m",
+  "value": "fthfghfgh",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67583d31a814535996165ea5"
+  },
+  "id": "awz94i",
+  "value": "fgdfgdfg",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67583d625203937f917122ed"
+  },
+  "id": "pajvua",
+  "value": "sdfdsfds",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67583f990d0764f435999d6b"
+  },
+  "id": "ao29be",
+  "value": "kkyukyu",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67584c6ce40ccce1b40cc509"
+  },
+  "id": "jnaome",
+  "value": "ghfghgf",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67584cc5ed38cc5969e3ea89"
+  },
+  "id": "w3zptl",
+  "value": "fghfgh",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67585449d7871a60e90b98e6"
+  },
+  "id": "ual2at",
+  "value": "dfgdfhyf",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a496fe3d7882031fbe94dc"
+  },
+  "id": "i39hu",
+  "value": "Hilllll",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a4ada05d6d17a6963431ca"
+  },
+  "id": "oamzmv",
+  "value": "Cá",
+  "active": true,
+  "__v": 0
+}]

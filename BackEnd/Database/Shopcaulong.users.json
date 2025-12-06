@@ -1,0 +1,558 @@
+[{
+  "_id": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "id": "67545b0757523981f583f45c",
+  "username": "gjhjgjh",
+  "password": "MatKhau456!",
+  "email": "tranthib@gmail.com",
+  "phoneNumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "gender": "Female",
+  "dateOfBirth": {
+    "$date": "1999-12-31T17:00:00.000Z"
+  },
+  "role": "Customer",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-08T11:07:34.239Z"
+  },
+  "avatar": "https://res.cloudinary.com/dxtslecpc/image/upload/v1738939564/shopcaulonguit/map.jpg",
+  "wishList": [],
+  "locationId": {
+    "$oid": "67a73aee80adc36396b7e199"
+  }
+},
+{
+  "_id": {
+    "$oid": "67545b0757523981f583f463"
+  },
+  "id": "009",
+  "username": "nguyen_van_i",
+  "password": "I89012345!",
+  "email": "nguyenvani@gmail.com",
+  "phoneNumber": "0989012345",
+  "address": "789 Đường Trường Sa, Quận Gò Vấp, TP.HCM",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1994-09-09T00:00:00.000Z"
+  },
+  "role": "WarehouseStaff",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "avatar": "",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "id": "67545b0757523981f583f45b",
+  "username": "nguyen van b",
+  "password": "1234567890",
+  "email": "nguyenvana@gmail.com",
+  "phoneNumber": "0901235",
+  "address": "Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Hồ Chí Minh, Vietnam",
+  "gender": "Female",
+  "dateOfBirth": {
+    "$date": "2034-05-06T17:00:00.000Z"
+  },
+  "role": "Customer",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-08T04:11:38.928Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T06:29:05.769Z"
+  },
+  "avatar": "https://res.cloudinary.com/dxtslecpc/image/upload/v1739119614/shopcaulonguit/Hoawebp.webp",
+  "wishList": [
+    {
+      "$oid": "67526f48cc52b6402f871778"
+    },
+    {
+      "$oid": "6752a860cc52b6402f8717c7"
+    },
+    {
+      "$oid": "67527817cc52b6402f871794"
+    },
+    {
+      "$oid": "67527621cc52b6402f87178f"
+    }
+  ],
+  "__v": 8,
+  "locationId": {
+    "$oid": "67a99ca432d79a1856f5c903"
+  }
+},
+{
+  "_id": {
+    "$oid": "67545b0757523981f583f461"
+  },
+  "id": "007",
+  "username": "pham_van_g",
+  "password": "GoodLuck#99",
+  "email": "phamvang@gmail.com",
+  "phoneNumber": "0967890123",
+  "address": "123 Đường Điện Biên Phủ, Quận Bình Thạnh, TP.HCM",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1993-07-07T00:00:00.000Z"
+  },
+  "role": "WarehouseStaff",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "avatar": "",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "67545b0757523981f583f464"
+  },
+  "id": "67545b0757523981f583f464",
+  "username": "tran_thi_j",
+  "password": "J12345678!",
+  "email": "tranthij@gmail.com",
+  "phoneNumber": "0990123456",
+  "address": "321 Đường Võ Văn Kiệt, Quận 8, TP.HCM",
+  "gender": "Female",
+  "dateOfBirth": {
+    "$date": "2001-10-10T00:00:00.000Z"
+  },
+  "role": "Customer",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-10T08:46:19.889Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-27T02:56:39.879Z"
+  },
+  "avatar": "https://res.cloudinary.com/dxtslecpc/image/upload/v1736355064/shopcaulonguit/Bi%C3%A1%C2%BB%C2%83u%20%C3%84%C2%91%C3%A1%C2%BB%C2%93%20kh%C3%83%C2%B4ng%20c%C3%83%C2%B3%20ti%C3%83%C2%AAu%20%C3%84%C2%91%C3%A1%C2%BB%C2%81.png",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "67545b0757523981f583f45d"
+  },
+  "id": "003",
+  "username": "pham_van_c",
+  "password": "C12345678!",
+  "email": "phamvanc@gmail.com",
+  "phoneNumber": "0923456789",
+  "address": "789 Đường Trần Phú, Quận 5, TP.HCM",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1985-03-03T00:00:00.000Z"
+  },
+  "role": "Seller",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "avatar": "",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "67545b0757523981f583f45e"
+  },
+  "id": "004",
+  "username": "le_thi_d",
+  "password": "D45678901!",
+  "email": "lethid@gmail.com",
+  "phoneNumber": "0934567890",
+  "address": "321 Đường Phan Chu Trinh, Quận 3, TP.HCM",
+  "gender": "Female",
+  "dateOfBirth": {
+    "$date": "2000-04-04T00:00:00.000Z"
+  },
+  "role": "WarehouseStaff",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "avatar": "",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "67545b0757523981f583f462"
+  },
+  "id": "67545b0757523981f583f462",
+  "username": "Nguyen Van A",
+  "password": "Secure$Pass1!",
+  "email": "lethih@gmail.com",
+  "phoneNumber": "0123456789",
+  "address": "123 Đường ABC, Quận X, TP.HCM",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1999-12-31T17:00:00.000Z"
+  },
+  "role": "Customer",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T06:18:14.304Z"
+  },
+  "avatar": "",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "67545b0757523981f583f45f"
+  },
+  "id": "67545b0757523981f583f45f",
+  "username": "nguyen_van_e",
+  "password": "Strong@2024",
+  "email": "nguyenvane@gmail.com",
+  "phoneNumber": "0945678901",
+  "address": "24 P. Hai Bà Trưng, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1992-05-05T00:00:00.000Z"
+  },
+  "role": "Admin",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-09T13:33:02.596Z"
+  },
+  "avatar": "https://res.cloudinary.com/dxtslecpc/image/upload/v1738599022/shopcaulonguit/cay-xuong-rong-co-tru-ta-khong-1-20221005104336.png",
+  "wishList": [],
+  "locationId": {
+    "$oid": "67a8ab6dd96fbe59fa44895c"
+  }
+},
+{
+  "_id": {
+    "$oid": "67545b0757523981f583f460"
+  },
+  "id": "006",
+  "username": "tran_thi_f",
+  "password": "Password123!",
+  "email": "tranthif@gmail.com",
+  "phoneNumber": "0956789012",
+  "address": "987 Đường Lý Thường Kiệt, Quận 10, TP.HCM",
+  "gender": "Female",
+  "dateOfBirth": {
+    "$date": "1998-06-06T00:00:00.000Z"
+  },
+  "role": "Seller",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T08:46:19.888Z"
+  },
+  "avatar": "",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "67669eb0867ff481396dbc33"
+  },
+  "id": "user_1734778523213_633",
+  "username": "Phong",
+  "password": "Khoailang1@",
+  "email": "tuanphongbrvt1@gmail.com",
+  "gender": "Other",
+  "role": "Customer",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-21T10:55:44.414Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-21T10:55:44.414Z"
+  },
+  "__v": 0,
+  "avatar": "",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "6768ffb96238c5dbd890549b"
+  },
+  "id": "1734934457348",
+  "username": "Nguyen Van",
+  "password": "Password@123",
+  "email": "guyenvana@example.com",
+  "phoneNumber": "0123456789",
+  "address": "",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "role": "Seller",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-23T06:14:17.436Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T06:14:17.436Z"
+  },
+  "__v": 0,
+  "avatar": "",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "6768ffc46238c5dbd89054a1"
+  },
+  "id": "1734934468759",
+  "username": "Nguyen Van B",
+  "password": "Password@123",
+  "email": "yenvana@example.com",
+  "phoneNumber": "0123456789",
+  "address": "",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "role": "WarehouseStaff",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-23T06:14:28.836Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T06:14:28.836Z"
+  },
+  "__v": 0,
+  "avatar": "",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "6768ffd06238c5dbd89054a7"
+  },
+  "id": "1734934479981",
+  "username": "Nguyen Van C",
+  "password": "Password@123",
+  "email": "a@example.com",
+  "phoneNumber": "0123456789",
+  "address": "",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "role": "Admin",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2024-12-23T06:14:40.059Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T06:14:40.059Z"
+  },
+  "__v": 0,
+  "avatar": "",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "677922a9feda196a44390bb1"
+  },
+  "id": "677922a9feda196a44390bb1",
+  "username": "Nguyen Vo Hoang Huy",
+  "password": "Test123@",
+  "email": "21522346@gm.uit.edu.vn",
+  "gender": "Male",
+  "role": "Customer",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-01-04T11:59:37.869Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-20T06:13:32.273Z"
+  },
+  "__v": 0,
+  "address": "Trường Đại học Công nghệ Thông tin TpHCM",
+  "dateOfBirth": {
+    "$date": "2025-01-06T17:00:00.000Z"
+  },
+  "phoneNumber": "0354668521",
+  "avatar": "",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "67909e575361dcd741ad7083"
+  },
+  "id": "1737530967086",
+  "username": "Phan Minh Tu",
+  "password": "Password@123",
+  "email": "1107@gm.uit.edu.vn",
+  "phoneNumber": "0912345678",
+  "address": "",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "role": "Seller",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-01-22T07:29:27.153Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-22T07:29:27.153Z"
+  },
+  "__v": 0,
+  "avatar": "",
+  "wishList": []
+},
+{
+  "_id": {
+    "$oid": "67a1bfa834645cf7072face4"
+  },
+  "id": "1738653608023",
+  "username": "W907N0CM",
+  "password": "Password@123",
+  "email": "dp1.2a8.ngocphu@gmail.com",
+  "phoneNumber": "0867737067",
+  "address": "",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "role": "Seller",
+  "isActive": true,
+  "avatar": "",
+  "wishList": [],
+  "createdAt": {
+    "$date": "2025-02-04T07:20:08.116Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-04T07:20:08.116Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8a920d96fbe59fa447ee5"
+  },
+  "id": "1739106592596",
+  "username": "1",
+  "password": "Password@123",
+  "email": "1",
+  "phoneNumber": "1",
+  "address": "",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "role": "Seller",
+  "isActive": true,
+  "avatar": "",
+  "wishList": [],
+  "locationId": null,
+  "createdAt": {
+    "$date": "2025-02-09T13:09:52.668Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-09T13:09:52.668Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8a944d96fbe59fa447ef6"
+  },
+  "id": "1739106628030",
+  "username": "22521107",
+  "password": "Password@123",
+  "email": "3",
+  "phoneNumber": "2",
+  "address": "",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "role": "Admin",
+  "isActive": true,
+  "avatar": "",
+  "wishList": [],
+  "locationId": null,
+  "createdAt": {
+    "$date": "2025-02-09T13:10:28.102Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-09T13:10:28.102Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8a9b8d96fbe59fa447f15"
+  },
+  "id": "1739106744248",
+  "username": "225211073",
+  "password": "Password@123",
+  "email": "5",
+  "phoneNumber": "2",
+  "address": "",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "role": "Admin",
+  "isActive": true,
+  "avatar": "",
+  "wishList": [],
+  "locationId": null,
+  "createdAt": {
+    "$date": "2025-02-09T13:12:24.316Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-09T13:12:24.316Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8a9e1d96fbe59fa447f27"
+  },
+  "id": "1739106785464",
+  "username": "225211072",
+  "password": "Password@123",
+  "email": "21107@gm.uit.edu.vn",
+  "phoneNumber": "0867737067",
+  "address": "",
+  "gender": "Male",
+  "dateOfBirth": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "role": "Admin",
+  "isActive": true,
+  "avatar": "",
+  "wishList": [],
+  "locationId": null,
+  "createdAt": {
+    "$date": "2025-02-09T13:13:05.547Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-09T13:13:05.547Z"
+  },
+  "__v": 0
+}]

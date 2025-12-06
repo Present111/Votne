@@ -1,0 +1,3713 @@
+[{
+  "_id": {
+    "$oid": "6756fefc31665423d558f718"
+  },
+  "id": "O54506",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "sdfsdfsdf",
+  "status": "Đã giao",
+  "location": "",
+  "cancelReason": "ghgfhg",
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Đã Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3049000,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "6756fefc31665423d558f719"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-20T16:59:09.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-20T07:31:28.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:24.580Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6757015531665423d558f800"
+  },
+  "id": "O55616",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "Không liên lạc được với khách",
+  "status": "Đã hủy",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3049000,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "6757015531665423d558f801"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527b86cc52b6402f87179a"
+      },
+      "colorid": "color02",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 4690000,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "6757015531665423d558f802"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-01-21T01:31:31.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-01-01T18:55:04.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:24.693Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6757d6fbd6e510602ecbdf64"
+  },
+  "id": "O59011",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Đã giao",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Đã Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 5,
+      "review": {
+        "$oid": "67a99cee32d79a1856f5cd4e"
+      },
+      "_id": {
+        "$oid": "6757d6fbd6e510602ecbdf65"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527b86cc52b6402f87179a"
+      },
+      "colorid": "color02",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 5628000,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6757d6fbd6e510602ecbdf66"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-01-14T06:12:56.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-21T07:20:12.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T06:30:06.839Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6763c1c763cb66967a5a6ae6"
+  },
+  "id": "O53227",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "6763c1c763cb66967a5a6ae7"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6763c1c763cb66967a5a6ae8"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-01-02T20:22:18.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-01-07T01:13:04.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:24.943Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6763c34e63cb66967a5a6b7f"
+  },
+  "id": "O44876",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "6763c34e63cb66967a5a6b80"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6763c34e63cb66967a5a6b81"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-01-26T05:21:25.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-01-27T02:26:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:25.063Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6763c39f63cb66967a5a6c08"
+  },
+  "id": "O63308",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "6763c39f63cb66967a5a6c09"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6763c39f63cb66967a5a6c0a"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-01-14T22:51:55.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-18T02:17:03.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:25.176Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6763c3c363cb66967a5a6c19"
+  },
+  "id": "O25332",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "6763c3c363cb66967a5a6c1a"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6763c3c363cb66967a5a6c1b"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-18T14:29:49.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-11T10:04:34.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:25.286Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6763c42b63cb66967a5a6c6c"
+  },
+  "id": "O32257",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "6763c42b63cb66967a5a6c6d"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6763c42b63cb66967a5a6c6e"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-01-12T16:23:32.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-28T19:44:06.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:25.398Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6763c43a63cb66967a5a6c7b"
+  },
+  "id": "O60891",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "6763c43a63cb66967a5a6c7c"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6763c43a63cb66967a5a6c7d"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-06T06:38:21.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-17T21:37:28.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:25.521Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6763c44663cb66967a5a6cd2"
+  },
+  "id": "O34632",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "6763c44663cb66967a5a6cd3"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6763c44663cb66967a5a6cd4"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-01-15T11:39:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-01-15T18:46:42.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:25.632Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6763c84563cb66967a5a72bf"
+  },
+  "id": "O21136",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "Giao nhanh",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "6763c84563cb66967a5a72c0"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6763c84563cb66967a5a72c1"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-03T15:25:58.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-01-24T16:57:56.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:25.744Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6763c87e63cb66967a5a73a4"
+  },
+  "id": "O42960",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "Giao nhanh",
+  "cancelReason": "Không liên lạc được với khách",
+  "status": "Đã hủy",
+  "location": "",
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "6763c87e63cb66967a5a73a5"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6763c87e63cb66967a5a73a6"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-05T21:52:13.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-01-11T16:15:07.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:25.863Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6764ac978557dea1de09ec2b"
+  },
+  "id": "O13250",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "Giao nhanh",
+  "cancelReason": "",
+  "status": "Đã hủy",
+  "location": "Như",
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "6764ac978557dea1de09ec2c"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6764ac978557dea1de09ec2d"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-01-22T02:41:16.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-01-26T02:20:58.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:25.978Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6764c05c5d45e171a2380584"
+  },
+  "id": "O71344",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "Giao nhanh",
+  "cancelReason": "",
+  "status": "Đã hủy",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "6764c05c5d45e171a2380585"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6764c05c5d45e171a2380586"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-01-17T15:39:27.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-14T17:44:07.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:26.086Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "6764c0655d45e171a23805d9"
+  },
+  "id": "O60853",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen_van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "Giao nhanh",
+  "cancelReason": "",
+  "status": "Đã hủy",
+  "location": "Vai",
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "6764c0655d45e171a23805da"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "6764c0655d45e171a23805db"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-01-21T13:47:32.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-01-08T20:13:26.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:26.207Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "67659deae8003ce8b7484e08"
+  },
+  "id": "O18269",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen van",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "Giao nhanh lên nha bạn ơi ",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 97600,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "67659deae8003ce8b7484e09"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67659deae8003ce8b7484e0a"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-01-17T16:08:57.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-01-14T12:43:43.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:26.320Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "678de9afe077f2082f7e579f"
+  },
+  "id": "O59107",
+  "iduser": {
+    "$oid": "677922a9feda196a44390bb1"
+  },
+  "name": "Nguyen Vo Hoang Huy",
+  "phonumber": "0354668521",
+  "address": "Trường Đại học Công nghệ Thông tin TpHCM",
+  "email": "21522346@gm.uit.edu.vn",
+  "description": "ghi ghi chu chu chu chu 123",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67526f48cc52b6402f871778"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 959000,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "678de9afe077f2082f7e57a0"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3049000,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "678de9afe077f2082f7e57a1"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-01-03T17:08:59.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T03:35:35.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:26.430Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "679da2306bd23724ce8fee3b"
+  },
+  "id": "O41952",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen van b",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 197600,
+      "number": 5,
+      "review": null,
+      "_id": {
+        "$oid": "679da2306bd23724ce8fee3c"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 10,
+      "review": null,
+      "_id": {
+        "$oid": "679da2306bd23724ce8fee3d"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-04T09:09:35.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-01-27T01:42:42.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:26.539Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "679da2956bd23724ce8feff0"
+  },
+  "id": "O98509",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen van b",
+  "phonumber": "0901234567",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "location": "",
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 197600,
+      "number": 5,
+      "review": null,
+      "_id": {
+        "$oid": "679da2956bd23724ce8feff1"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 10,
+      "review": null,
+      "_id": {
+        "$oid": "679da2956bd23724ce8feff2"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-20T04:55:19.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-01-09T18:50:02.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:26.653Z"
+  },
+  "__v": 0,
+  "locationID": {
+    "$oid": "67a61fd4a4efbaef8c2e1bbf"
+  },
+  "shippingFee": 0,
+  "memberDiscount": 0
+},
+{
+  "_id": {
+    "$oid": "67a7045ade73cff030d289af"
+  },
+  "id": "O45543",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen van b",
+  "phonumber": "0901235",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a6fadede73cff030d28143"
+  },
+  "location": "",
+  "shippingFee": 4901,
+  "memberDiscount": 0,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 10,
+      "review": null,
+      "_id": {
+        "$oid": "67a7045ade73cff030d289b0"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752a860cc52b6402f8717c7"
+      },
+      "colorid": "Blue",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 780000,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a7045ade73cff030d289b1"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T07:14:34.386Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T07:14:34.389Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:26.769Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a71b7280adc36396b799b7"
+  },
+  "id": "O59036",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen van b",
+  "phonumber": "0901235",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Đang xử lý",
+  "locationID": {
+    "$oid": "67a6fadede73cff030d28143"
+  },
+  "location": "",
+  "shippingFee": 4901,
+  "memberDiscount": 0,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Đã Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 10,
+      "review": null,
+      "_id": {
+        "$oid": "67a71b7280adc36396b799b8"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752a860cc52b6402f8717c7"
+      },
+      "colorid": "Blue",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 780000,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a71b7280adc36396b799b9"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T08:53:06.680Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T08:53:06.682Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:26.877Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a735b180adc36396b7cd36"
+  },
+  "id": "O61041",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen van b",
+  "phonumber": "0901235",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a6fadede73cff030d28143"
+  },
+  "location": "",
+  "shippingFee": 4901,
+  "memberDiscount": 0,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 10,
+      "review": null,
+      "_id": {
+        "$oid": "67a735b180adc36396b7cd37"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752a860cc52b6402f8717c7"
+      },
+      "colorid": "Blue",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 780000,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a735b180adc36396b7cd38"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T10:45:05.264Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T10:45:05.265Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:26.985Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a7367580adc36396b7d1cb"
+  },
+  "id": "O85585",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen van b",
+  "phonumber": "0901235",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a6fadede73cff030d28143"
+  },
+  "location": "",
+  "shippingFee": 4901,
+  "memberDiscount": 500000,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 10,
+      "review": null,
+      "_id": {
+        "$oid": "67a7367580adc36396b7d1cc"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752a860cc52b6402f8717c7"
+      },
+      "colorid": "Blue",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 780000,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a7367580adc36396b7d1cd"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T10:48:21.631Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T10:48:21.631Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:27.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73b3480adc36396b7e1db"
+  },
+  "id": "O91961",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73b3480adc36396b7e1dc"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73b3480adc36396b7e1dd"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73b3480adc36396b7e1de"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:08:36.440Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:08:36.440Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:27.258Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73b5280adc36396b7e319"
+  },
+  "id": "O28440",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 500000,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73b5280adc36396b7e31a"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73b5280adc36396b7e31b"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73b5280adc36396b7e31c"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:09:06.368Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:09:06.368Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:27.395Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73b9780adc36396b7e413"
+  },
+  "id": "O61111",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 500000,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73b9780adc36396b7e414"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73b9780adc36396b7e415"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73b9780adc36396b7e416"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:10:15.096Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:10:15.098Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:27.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73ba680adc36396b7e555"
+  },
+  "id": "O99154",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 500000,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73ba680adc36396b7e556"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73ba680adc36396b7e557"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73ba680adc36396b7e558"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:10:30.826Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:10:30.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:27.659Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73c308ea28978382640ab"
+  },
+  "id": "O20660",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73c308ea28978382640ac"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73c308ea28978382640ad"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73c308ea28978382640ae"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:12:48.674Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:12:48.678Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:27.782Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73c398ea2897838264181"
+  },
+  "id": "O13801",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73c398ea2897838264182"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73c398ea2897838264183"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73c398ea2897838264184"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:12:57.140Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:12:57.141Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:27.902Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73ca98ea2897838264263"
+  },
+  "id": "O30832",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73ca98ea2897838264264"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73ca98ea2897838264265"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73ca98ea2897838264266"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:14:49.461Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:14:49.462Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:28.040Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73cb68ea2897838264269"
+  },
+  "id": "O83831",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73cb68ea289783826426a"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73cb68ea289783826426b"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73cb68ea289783826426c"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:15:02.494Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:15:02.495Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:28.155Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73cbd8ea2897838264280"
+  },
+  "id": "O53397",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73cbd8ea2897838264281"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73cbd8ea2897838264282"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73cbd8ea2897838264283"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:15:09.045Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:15:09.045Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:28.266Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73cc68ea2897838264464"
+  },
+  "id": "O78231",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73cc68ea2897838264465"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73cc68ea2897838264466"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73cc68ea2897838264467"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:15:18.061Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:15:18.062Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:28.379Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73ce08ea2897838264576"
+  },
+  "id": "O79847",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73ce08ea2897838264577"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73ce08ea2897838264578"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73ce08ea2897838264579"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:15:44.201Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:15:44.201Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:28.494Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73cee8ea2897838264694"
+  },
+  "id": "O66074",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73cee8ea2897838264695"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73cee8ea2897838264696"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73cee8ea2897838264697"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:15:58.788Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:15:58.788Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:28.605Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73d128ea28978382646cd"
+  },
+  "id": "O57006",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d128ea28978382646ce"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d128ea28978382646cf"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d128ea28978382646d0"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:16:34.327Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:16:34.328Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:28.714Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73d268ea28978382646f5"
+  },
+  "id": "O43393",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d268ea28978382646f6"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d268ea28978382646f7"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d268ea28978382646f8"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:16:54.506Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:16:54.507Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:28.823Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73d378ea2897838264750"
+  },
+  "id": "O50442",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d378ea2897838264751"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d378ea2897838264752"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d378ea2897838264753"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:17:11.225Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:17:11.226Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:28.945Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73d3f8ea289783826489e"
+  },
+  "id": "O62748",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d3f8ea289783826489f"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d3f8ea28978382648a0"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d3f8ea28978382648a1"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:17:19.531Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:17:19.532Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:29.076Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73d508ea28978382649f8"
+  },
+  "id": "O22771",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d508ea28978382649f9"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d508ea28978382649fa"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73d508ea28978382649fb"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:17:36.399Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:17:36.400Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:29.186Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73da98ea2897838264b5e"
+  },
+  "id": "O88457",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73da98ea2897838264b5f"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73da98ea2897838264b60"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73da98ea2897838264b61"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:19:05.101Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:19:05.101Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:29.297Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a73db68ea2897838264e1a"
+  },
+  "id": "O83147",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45c"
+  },
+  "name": "gjhjgjh",
+  "phonumber": "1111111111",
+  "address": "dsfdfsdfsdf",
+  "email": "tranthib@gmail.com",
+  "description": "",
+  "cancelReason": "d",
+  "status": "Đã hủy",
+  "locationID": {
+    "$oid": "67a73aee80adc36396b7e199"
+  },
+  "location": "",
+  "shippingFee": 5665765,
+  "memberDiscount": 0,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 8,
+      "review": null,
+      "_id": {
+        "$oid": "67a73db68ea2897838264e1b"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a73db68ea2897838264e1c"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a73db68ea2897838264e1d"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-08T11:19:18.554Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-08T11:19:18.555Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:29.405Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a82148c294e03c84fb06e5"
+  },
+  "id": "O37231",
+  "iduser": {
+    "$oid": "67a78fc08ea289783826afed"
+  },
+  "name": "PHU",
+  "phonumber": "0987654321",
+  "address": "",
+  "email": "22521107@gm.uit.edu.vn",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a8205e8f0588afb7abe84e"
+  },
+  "location": "",
+  "shippingFee": 4901,
+  "memberDiscount": 0,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67526f48cc52b6402f871778"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 959000,
+      "number": 5,
+      "review": null,
+      "_id": {
+        "$oid": "67a82148c294e03c84fb06e6"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-09T03:30:16.372Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-09T03:30:16.380Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:29.577Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8618267cad6eb09a3c5bd"
+  },
+  "id": "O85803",
+  "iduser": {
+    "$oid": "67a78fc08ea289783826afed"
+  },
+  "name": "PHU",
+  "phonumber": "0987654321",
+  "address": "",
+  "email": "22521107@gm.uit.edu.vn",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a8205e8f0588afb7abe84e"
+  },
+  "location": "",
+  "shippingFee": 4901,
+  "memberDiscount": 0,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527b86cc52b6402f87179a"
+      },
+      "colorid": "color02",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 4690000,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a8618267cad6eb09a3c5be"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-09T08:04:18.798Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-09T08:04:18.799Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:29.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a861aa67cad6eb09a3cd68"
+  },
+  "id": "O50675",
+  "iduser": {
+    "$oid": "67a78fc08ea289783826afed"
+  },
+  "name": "PHU",
+  "phonumber": "0987654321",
+  "address": "",
+  "email": "22521107@gm.uit.edu.vn",
+  "description": "",
+  "cancelReason": "",
+  "status": "Đã hủy",
+  "locationID": {
+    "$oid": "67a8205e8f0588afb7abe84e"
+  },
+  "location": "",
+  "shippingFee": 4901,
+  "memberDiscount": 0,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527b86cc52b6402f87179a"
+      },
+      "colorid": "color02",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 4690000,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a861aa67cad6eb09a3cd69"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527d2ccc52b6402f8717a2"
+      },
+      "colorid": "color03",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 3700000,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a861aa67cad6eb09a3cd6a"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 98000,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "67a861aa67cad6eb09a3cd6b"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-09T08:04:58.783Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-09T08:04:58.784Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:29.801Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a861c467cad6eb09a3cf5c"
+  },
+  "id": "O71547",
+  "iduser": {
+    "$oid": "67a78fc08ea289783826afed"
+  },
+  "name": "PHU",
+  "phonumber": "0987654321",
+  "address": "",
+  "email": "22521107@gm.uit.edu.vn",
+  "description": "",
+  "cancelReason": "",
+  "status": "Đã hủy",
+  "locationID": {
+    "$oid": "67a8205e8f0588afb7abe84e"
+  },
+  "location": "",
+  "shippingFee": 4901,
+  "memberDiscount": 0,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527b86cc52b6402f87179a"
+      },
+      "colorid": "color02",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 4690000,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a861c467cad6eb09a3cf5d"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67527d2ccc52b6402f8717a2"
+      },
+      "colorid": "color03",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e4"
+      },
+      "price": 3700000,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a861c467cad6eb09a3cf5e"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752a72bcc52b6402f8717c2"
+      },
+      "colorid": "Black",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 98000,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "67a861c467cad6eb09a3cf5f"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-09T08:05:24.753Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-09T08:05:24.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:29.914Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8690df0140643f749a114"
+  },
+  "id": "O78591",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen van b",
+  "phonumber": "0901235",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a6fadede73cff030d28143"
+  },
+  "location": "",
+  "shippingFee": 4901,
+  "memberDiscount": 500000,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 10,
+      "review": null,
+      "_id": {
+        "$oid": "67a8690df0140643f749a115"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752a860cc52b6402f8717c7"
+      },
+      "colorid": "Blue",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 780000,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a8690df0140643f749a116"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-09T08:36:29.693Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-09T08:36:29.694Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:30.041Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8a7b5d96fbe59fa446bda"
+  },
+  "id": "O77400",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen van b",
+  "phonumber": "0901235",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a8a6b0d96fbe59fa446095"
+  },
+  "location": "",
+  "shippingFee": 65226,
+  "memberDiscount": 500000,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "67527817cc52b6402f871794"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 3658800,
+      "number": 10,
+      "review": null,
+      "_id": {
+        "$oid": "67a8a7b5d96fbe59fa446bdb"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752a860cc52b6402f8717c7"
+      },
+      "colorid": "Blue",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 780000,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a8a7b5d96fbe59fa446bdc"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1139000,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a8a7b5d96fbe59fa446bdd"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-09T13:03:49.828Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-09T13:03:49.830Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:30.151Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a8bbddd96fbe59fa44efdb"
+  },
+  "id": "O62805",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen van b",
+  "phonumber": "0901235",
+  "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Đã giao",
+  "locationID": {
+    "$oid": "67a8a6b0d96fbe59fa446095"
+  },
+  "location": "",
+  "shippingFee": 65226,
+  "memberDiscount": 500000,
+  "paymentMethod": "Ship Cod",
+  "paymentStatus": "Đã Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752a860cc52b6402f8717c7"
+      },
+      "colorid": "Blue",
+      "idattributevalue": {
+        "$oid": "6753d3aa57523981f583f405"
+      },
+      "price": 780000,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a8bbddd96fbe59fa44efdc"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a8bbddd96fbe59fa44efdd"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67a3909511ff01e43dfae091"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751ac2c8c0def2484c4e235"
+      },
+      "price": 149000,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a8bbddd96fbe59fa44efde"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67a3909511ff01e43dfae091"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751ac2c8c0def2484c4e236"
+      },
+      "price": 149000,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a8bbddd96fbe59fa44efdf"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67a3873811ff01e43dfae07c"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751ab9b8c0def2484c4e18b"
+      },
+      "price": 2250000,
+      "number": 6,
+      "review": null,
+      "_id": {
+        "$oid": "67a8bbddd96fbe59fa44efe0"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-09T14:29:49.757Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-09T14:29:49.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:30.260Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a97d84dd7a776f916179c9"
+  },
+  "id": "O95891",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen van b",
+  "phonumber": "0901235",
+  "address": "208 Nguyễn Hữu Cảnh, Vinhomes Tân Cảng, Bình Thạnh, Hồ Chí Minh, Vietnam",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a97d41dd7a776f9161775e"
+  },
+  "location": "",
+  "shippingFee": 65126,
+  "memberDiscount": 452800,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1139000,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a97d84dd7a776f916179ca"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67a37a6611ff01e43dfae079"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751aa7a8c0def2484c4e17d"
+      },
+      "price": 750000,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "67a97d84dd7a776f916179cb"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-10T04:16:04.229Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-10T04:16:04.231Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T04:30:30.377Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a99ccb32d79a1856f5c9a7"
+  },
+  "id": "O17704",
+  "iduser": {
+    "$oid": "67545b0757523981f583f45b"
+  },
+  "name": "nguyen van b",
+  "phonumber": "0901235",
+  "address": "Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Hồ Chí Minh, Vietnam",
+  "email": "nguyenvana@gmail.com",
+  "description": "",
+  "cancelReason": "",
+  "status": "Chờ xử lý",
+  "locationID": {
+    "$oid": "67a99ca432d79a1856f5c903"
+  },
+  "location": "",
+  "shippingFee": 4901,
+  "memberDiscount": 500000,
+  "paymentMethod": "Chuyển Khoản",
+  "paymentStatus": "Chưa Thanh Toán",
+  "products": [
+    {
+      "idproduct": {
+        "$oid": "6752719fcc52b6402f871780"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 1366800,
+      "number": 2,
+      "review": null,
+      "_id": {
+        "$oid": "67a99ccb32d79a1856f5c9a8"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67a37a6611ff01e43dfae079"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751aa7a8c0def2484c4e17d"
+      },
+      "price": 900000,
+      "number": 3,
+      "review": null,
+      "_id": {
+        "$oid": "67a99ccb32d79a1856f5c9a9"
+      }
+    },
+    {
+      "idproduct": {
+        "$oid": "67526f48cc52b6402f871778"
+      },
+      "colorid": "color01",
+      "idattributevalue": {
+        "$oid": "6751a8898c0def2484c4e0e3"
+      },
+      "price": 959000,
+      "number": 1,
+      "review": null,
+      "_id": {
+        "$oid": "67a99ccb32d79a1856f5c9aa"
+      }
+    }
+  ],
+  "dayorder": {
+    "$date": "2025-02-10T06:29:31.655Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-10T06:29:31.657Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T06:29:31.657Z"
+  },
+  "__v": 0
+}]
